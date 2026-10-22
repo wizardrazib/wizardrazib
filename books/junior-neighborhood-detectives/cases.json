@@ -1,0 +1,541 @@
+[
+  {
+    "id": 1,
+    "title": "The Three Garden Pots",
+    "story": "The neighborhood fair opens tomorrow. Maya, Sam, and Jo have three pots ready for the garden table. But their name cards are on the floor. “Mine had a circle sticker,” says Maya. “Mine did not have a triangle sticker,” says Sam. “Let’s write that down,” says Jo. Each child owns exactly one pot. Each pot belongs to exactly one child. All three remember correctly.",
+    "evidence": [
+      "Pot A: circle sticker; height 8 centimeters.",
+      "Pot B: triangle sticker; height 12 centimeters.",
+      "Pot C: square sticker; height 10 centimeters.",
+      "Stickers and heights have not changed. Height is measured from table to rim. A centimeter measures length. Use these recorded numbers."
+    ],
+    "tasks": [
+      "Match Maya, Sam, and Jo to pots A, B, and C. Write each name and pot letter.",
+      "Put the pot letters in order from shortest to tallest. Whose pot is tallest? Does it have the triangle sticker?",
+      "Jo says Sam cannot own A even though it is not a triangle. Why? Choose: A already belongs to Maya / Sam dislikes circles / A is too short. Explain your evidence."
+    ],
+    "answers": [
+      "Maya owns A, Sam owns C, and Jo owns B. Maya’s circle fixes A. Sam cannot take B or the already assigned A. Jo gets B.",
+      "A, C, B: 8 is less than 10, and 10 is less than 12. Jo’s pot is tallest. Yes, it has the triangle.",
+      "A already belongs to Maya. Shape preferences and required heights were never given."
+    ],
+    "hints": [
+      "Start with Maya’s exact sticker.",
+      "After A is assigned, Sam must choose between B and C. Which is not a triangle?"
+    ],
+    "boundary": "Pot height is not plant height. A taller pot does not prove that its plant is older or healthier.",
+    "close": "The cards fell down. Nobody needed to be blamed. Sam copies the list so the club has a backup."
+  },
+  {
+    "id": 2,
+    "title": "The Morning Deliveries",
+    "story": "Three helpers brought one item each. Jo wants to thank them in the right order. “I wrote the clues,” says Maya. Nobody has to guess.",
+    "evidence": [
+      "The deliveries were a watering can, a seed bag, and a sign. Each arrived once.",
+      "The seed bag arrived after the watering can.",
+      "The sign arrived before the watering can."
+    ],
+    "tasks": [
+      "Write the items in delivery order: first, second, third.",
+      "Which arrived just before the seed bag?",
+      "Sam says the seed bag arrived first. Which clue rules that out?"
+    ],
+    "answers": [
+      "Sign, watering can, seed bag. The can must be between the other two items.",
+      "The watering can.",
+      "The seed bag arrived after the watering can, so it cannot be first."
+    ],
+    "hints": [
+      "Find the item that has something before it and after it.",
+      "Put the can in the middle."
+    ],
+    "boundary": "An order tells us before and after. It does not tell us the number of minutes between deliveries.",
+    "close": "Jo writes three thank-you notes. Every delivery helped."
+  },
+  {
+    "id": 3,
+    "title": "Labels in the Seed Tray",
+    "story": "The club has three labeled envelopes. The plants have not grown yet. “We can use the labels,” says Sam. “We cannot identify a plant from a bare pot.”",
+    "evidence": [
+      "Tray positions are left, middle, right. Each holds one envelope: bean, pea, or sunflower.",
+      "The bean is not in the middle or on the right.",
+      "The pea is immediately to the right of the sunflower."
+    ],
+    "tasks": [
+      "Place all three envelope names in the tray.",
+      "Which envelope is between the other two?",
+      "Can these clues tell us which seed will sprout first? Explain."
+    ],
+    "answers": [
+      "Left: bean. Middle: sunflower. Right: pea. Bean must be left; the remaining adjacent order is sunflower then pea.",
+      "Sunflower.",
+      "No. The clues give positions, not germination times or growing conditions."
+    ],
+    "hints": [
+      "Use both places that bean cannot occupy.",
+      "Only middle and right remain for sunflower and pea."
+    ],
+    "boundary": "A label is a record. It is not proof that a seed has sprouted.",
+    "close": "The envelopes stay closed. The club saves planting for a grown-up-led activity."
+  },
+  {
+    "id": 4,
+    "title": "The Tool Hooks",
+    "story": "Three safe garden tools hang on numbered hooks. Their record cards fell off. Maya checks the club notebook.",
+    "evidence": [
+      "Hooks 1, 2, and 3 each hold exactly one item: brush, scoop, or watering can.",
+      "The brush is on an odd-numbered hook. Odd hooks here are 1 and 3.",
+      "The watering can is on hook 1."
+    ],
+    "tasks": [
+      "Match each item to its hook.",
+      "Which item is on hook 2?",
+      "If the brush were on hook 1, which stated rule would be broken?"
+    ],
+    "answers": [
+      "Can on 1, scoop on 2, brush on 3. Hook 1 is taken, so brush uses the other odd hook.",
+      "Scoop.",
+      "Each hook holds one item; hook 1 already holds the can."
+    ],
+    "hints": [
+      "Assign the watering can first.",
+      "Which odd hook is still free?"
+    ],
+    "boundary": "We can reason from a complete inventory. With an unlisted extra tool, we would need more information.",
+    "close": "Jo clips the copied record above the hooks."
+  },
+  {
+    "id": 5,
+    "title": "The Shadow Screen",
+    "story": "A grown-up made three shadow tests for the fair. The club reads the records. No lamp or experiment is needed.",
+    "evidence": [
+      "Only one opaque card was used in each test. Opaque means light does not pass through it.",
+      "Test A: circle card. Test B: triangle card. Test C: square card.",
+      "In this setup, each card faced the lamp and made the matching outline on the screen.",
+      "The saved outline has exactly three straight sides."
+    ],
+    "tasks": [
+      "Which test made the saved outline?",
+      "How many straight sides distinguish the square from the triangle here?",
+      "Would this record tell us the real size of the card? Explain."
+    ],
+    "answers": [
+      "B. A triangle has three straight sides.",
+      "A square has four; a triangle has three. The difference is one side.",
+      "No. The record gives shape, not card dimensions or lamp distances."
+    ],
+    "hints": [
+      "Count sides rather than guessing from a name.",
+      "Compare three sides with the shapes listed."
+    ],
+    "boundary": "Shadow size depends on the setup. This simplified record establishes shape, not size.",
+    "close": "The club adds a clear label to the shadow display."
+  },
+  {
+    "id": 6,
+    "title": "Mirror Messages",
+    "story": "Sam invents a paper mirror code. “This is a rule in our notebook,” he says. “You do not need a real mirror.”",
+    "evidence": [
+      "The code reverses the ORDER of letters, not the shape of each letter.",
+      "Example: POT becomes TOP.",
+      "The label reads: XOB.",
+      "The three storage choices are BOX, BAG, and TIN."
+    ],
+    "tasks": [
+      "Decode XOB. Which storage choice matches?",
+      "Encode BAG with the same rule.",
+      "Jo writes POT as OPT. Does that follow the rule? Explain."
+    ],
+    "answers": [
+      "BOX. Read XOB from its last letter to its first.",
+      "GAB.",
+      "No. Reversing all three letters gives TOP, not OPT."
+    ],
+    "hints": [
+      "Start at the right-hand end.",
+      "X is the last letter after decoding."
+    ],
+    "boundary": "This is a letter-order code. A real mirror also reverses letter shapes, which this puzzle does not simulate.",
+    "close": "Maya labels it “reverse-order code” so nobody mistakes it for a real mirror test."
+  },
+  {
+    "id": 7,
+    "title": "Light Through the Window",
+    "story": "Jo compares saved light-test cards. An adult used the same lamp and detector setting each time. The club reads the observations.",
+    "evidence": [
+      "Card A: clear sheet; lamp clearly visible through it.",
+      "Card B: tracing sheet; light patch visible, but lamp outline unclear.",
+      "Card C: thick card; lamp light blocked in this test.",
+      "For this puzzle: transparent = clear view; translucent = blurred light; opaque = blocks the light."
+    ],
+    "tasks": [
+      "Match transparent, translucent, and opaque to A, B, and C.",
+      "Which card lets light through without a clear view?",
+      "Sam wants to claim every thin sheet is transparent. Do these three observations prove that?"
+    ],
+    "answers": [
+      "A transparent, B translucent, C opaque, using the supplied definitions.",
+      "B, the tracing sheet.",
+      "No. Thickness alone is not the tested rule, and only these three samples were observed."
+    ],
+    "hints": [
+      "Use the supplied definitions.",
+      "A clear view differs from a patch of light."
+    ],
+    "boundary": "Material, thickness, and conditions matter. Describe these samples rather than every possible sheet.",
+    "close": "The display gets three observation labels instead of a big guess."
+  },
+  {
+    "id": 8,
+    "title": "A Shadow That Changed",
+    "story": "Maya finds three photos of one display. The club does not need to recreate them.",
+    "evidence": [
+      "Same card, screen, and lamp setting in all three tests. Only the card’s position between lamp and screen changed.",
+      "Position A, nearest lamp: recorded shadow height 18 cm.",
+      "Position B, middle: 12 cm.",
+      "Position C, nearest screen: 6 cm."
+    ],
+    "tasks": [
+      "Order A, B, and C from smallest recorded shadow to largest.",
+      "How much taller is A’s shadow than B’s?",
+      "Did the card itself grow between tests? What fact supports your answer?"
+    ],
+    "answers": [
+      "C, B, A: 6, 12, 18 cm.",
+      "6 cm, because 18 minus 12 is 6.",
+      "No. The record explicitly says the same card was used and only its position changed."
+    ],
+    "hints": [
+      "Use the shadow heights, not alphabetical order.",
+      "Compare the largest and middle numbers by subtraction."
+    ],
+    "boundary": "These results apply to the stated setup. They do not tell clock time or show an object growing.",
+    "close": "Jo adds “same card” beneath the photos. That detail matters."
+  },
+  {
+    "id": 9,
+    "title": "The Magnet Record",
+    "story": "A grown-up tested three sealed display samples. The children only read the results. “Let’s not guess from the shiny surface,” says Jo.",
+    "evidence": [
+      "Each sample was tested three times with the same magnet and setup.",
+      "Sample A: moved toward magnet in all three tests.",
+      "Sample B: did not move in all three tests.",
+      "Sample C: moved toward magnet in all three tests.",
+      "The mystery card belongs to a sample that did NOT move."
+    ],
+    "tasks": [
+      "Which sample matches the mystery card?",
+      "Which TWO samples behaved alike?",
+      "Does a shiny appearance prove a material will move toward this magnet? Explain using the record’s limits."
+    ],
+    "answers": [
+      "B is the only sample recorded as not moving.",
+      "A and C both moved in all three tests.",
+      "No. No appearance comparison was recorded, and not every shiny material behaves alike."
+    ],
+    "hints": [
+      "Look for NOT move.",
+      "Compare all three repeats for each sample."
+    ],
+    "boundary": "Do not handle small magnets. These observations do not identify exact metals or prove that all metals are magnetic.",
+    "close": "The club uses test results rather than sparkle to label the card."
+  },
+  {
+    "id": 10,
+    "title": "The Mixed-Up Cup Cards",
+    "story": "The science table has sealed observation cards, not cups to taste. Sam sorts the results from an adult’s test.",
+    "evidence": [
+      "All tests used equal water amounts, the same temperature, and one minute of stirring.",
+      "Card A: added sugar; no grains visible afterward.",
+      "Card B: added sand; grains still visible at the bottom.",
+      "Card C: added salt; no grains visible afterward.",
+      "The lost label says: “Grains still visible after stirring.”"
+    ],
+    "tasks": [
+      "Which card needs the lost label?",
+      "Which cards describe the same visible result?",
+      "Can “no grains visible” prove that nothing is in the water? Explain."
+    ],
+    "answers": [
+      "B, the sand observation.",
+      "A and C.",
+      "No. Something can dissolve and still be present even when separate grains are not visible."
+    ],
+    "hints": [
+      "Read the last line of each test.",
+      "Two records say no grains were visible; one says they remained."
+    ],
+    "boundary": "Never taste an unknown liquid. The book uses records only; invisible does not mean absent or safe.",
+    "close": "Jo adds the word “visible” to the display. It makes the observation more careful."
+  },
+  {
+    "id": 11,
+    "title": "The Paper Bridge",
+    "story": "Three paper bridges were tested by an adult. Maya studies the records before choosing a photo for the fair.",
+    "evidence": [
+      "Same paper size, support gap, and identical small weights. Only fold pattern changed.",
+      "A: flat sheet; held 2 weights before bending.",
+      "B: zigzag fold; held 8.",
+      "C: curved fold; held 5.",
+      "For this display, choose the tested pattern that held the MOST weights."
+    ],
+    "tasks": [
+      "Which pattern should the club show?",
+      "How many more weights did B hold than A?",
+      "Sam says B will hold the most in every possible bridge test. Is that established?"
+    ],
+    "answers": [
+      "B, the zigzag fold, held 8, the largest count.",
+      "6 more: 8 minus 2.",
+      "No. These tests cover only the supplied materials, gap, and weights. Different conditions need testing."
+    ],
+    "hints": [
+      "Compare 2, 8, and 5.",
+      "The choice is about this test, not every bridge."
+    ],
+    "boundary": "These are model records, not instructions for a bridge people can stand on.",
+    "close": "The club shows the conditions beside the winning photo."
+  },
+  {
+    "id": 12,
+    "title": "The Rolling Record",
+    "story": "A grown-up released the same toy car from the same ramp mark onto three labeled surfaces. Jo reads the measured distances.",
+    "evidence": [
+      "A: 30 cm. B: 18 cm. C: 24 cm.",
+      "Same car, ramp mark, measuring method, and no push. Only the surface changed.",
+      "The record does not name the surface materials."
+    ],
+    "tasks": [
+      "Which surface had the longest recorded roll?",
+      "Order the surfaces from shortest roll to longest.",
+      "Can you identify which surface was carpet from these numbers alone? Explain."
+    ],
+    "answers": [
+      "A, with 30 cm.",
+      "B, C, A: 18, 24, 30 cm.",
+      "No. The materials are not named; a distance does not uniquely identify a material."
+    ],
+    "hints": [
+      "Longest means the largest distance.",
+      "Do not add a material name that is missing from the evidence."
+    ],
+    "boundary": "A fair comparison keeps listed conditions alike. A single set of results does not establish every future roll.",
+    "close": "Sam writes “surface names needed” rather than inventing them."
+  },
+  {
+    "id": 13,
+    "title": "The Delivery Map",
+    "story": "The club’s map is a small square. Maya wants the shortest route on the marked paths. Each path takes one step.",
+    "evidence": [
+      "Four places: Gate (top left), Library (top right), Garden (bottom left), Hall (bottom right).",
+      "Paths: Gate–Library, Gate–Garden, Library–Hall, Garden–Hall. Paths work both ways. No diagonal paths.",
+      "The Gate–Library path is closed.",
+      "Start at Gate and finish at Hall."
+    ],
+    "tasks": [
+      "Write the shortest open route.",
+      "How many steps does that route take?",
+      "Does a route through Library work without first reaching Hall? Explain."
+    ],
+    "answers": [
+      "Gate → Garden → Hall.",
+      "Two steps. There is no direct Gate–Hall path.",
+      "No. The direct Gate–Library path is closed. Reaching Library from Gate requires passing through Hall first."
+    ],
+    "hints": [
+      "Cross out the closed path.",
+      "Gate has just one open exit."
+    ],
+    "boundary": "This is a fictional map, not a real travel route. Stay with a trusted adult outdoors.",
+    "close": "Jo draws the open route on the fair’s delivery card."
+  },
+  {
+    "id": 14,
+    "title": "The Sticker Chart",
+    "story": "Sam made a chart of puzzle votes. Each child voted exactly once. “Read the key first,” says Maya.",
+    "evidence": [
+      "Key: each star stands for 2 votes. These are full stars only.",
+      "Garden puzzles: 3 stars.",
+      "Light puzzles: 2 stars.",
+      "Map puzzles: 4 stars."
+    ],
+    "tasks": [
+      "How many votes did each kind receive?",
+      "How many votes were cast altogether?",
+      "Which kind won, and by how many votes over the runner-up?"
+    ],
+    "answers": [
+      "Garden 6, Light 4, Map 8. Multiply each star count by 2.",
+      "18: 6 + 4 + 8.",
+      "Map won with 8, two more than Garden’s 6."
+    ],
+    "hints": [
+      "One star means two votes, not one.",
+      "Runner-up is the second-largest total."
+    ],
+    "boundary": "This chart describes these voters only. It does not prove what every child prefers.",
+    "close": "The club keeps every kind of puzzle. A vote is not a reason to exclude anyone."
+  },
+  {
+    "id": 15,
+    "title": "The Quiet Setup Slot",
+    "story": "The fair helpers need a quiet time together. Jo checks their schedules. All times below are in the morning.",
+    "evidence": [
+      "Maya is free 9:00–10:00.",
+      "Sam is free 9:30–10:30.",
+      "Jo is free 9:15–9:45.",
+      "They need 15 whole minutes when all three are free."
+    ],
+    "tasks": [
+      "What is the shared interval when all three are free?",
+      "Does 9:15–9:30 work? Why or why not?",
+      "Does 9:30–9:45 give all 15 minutes?"
+    ],
+    "answers": [
+      "9:30–9:45. The latest start is 9:30 and earliest finish is 9:45.",
+      "No. Sam is not free until 9:30.",
+      "Yes. All three are free throughout that 15-minute interval."
+    ],
+    "hints": [
+      "Start no earlier than the latest person’s start.",
+      "Finish no later than the earliest person’s finish."
+    ],
+    "boundary": "This puzzle uses stated schedules. It does not ask you to infer travel time.",
+    "close": "Maya puts the agreed time on the club card."
+  },
+  {
+    "id": 16,
+    "title": "The Symbol Key",
+    "story": "A box label uses Jo’s invented picture code. Sam has the full key. No outside code knowledge is needed.",
+    "evidence": [
+      "Circle = B. Triangle = A. Square = G. Star = T.",
+      "A sequence is read from left to right.",
+      "Label: circle, triangle, square."
+    ],
+    "tasks": [
+      "Decode the label.",
+      "Encode BAT by writing the three symbol names in order.",
+      "Does square, triangle, circle spell the same word as the label? Explain."
+    ],
+    "answers": [
+      "BAG. Replace each symbol with its key letter.",
+      "Circle, triangle, star.",
+      "No. It spells GAB. Order changes the result."
+    ],
+    "hints": [
+      "Replace one symbol at a time.",
+      "Do not reverse the sequence."
+    ],
+    "boundary": "This is an invented substitution key, not a secret language or a scientific measurement.",
+    "close": "The club puts the key beside the label so every helper can read it."
+  },
+  {
+    "id": 17,
+    "title": "The Fair Crate Route",
+    "story": "Fair day arrives. A crate of display cards is at the Gate. A helper needs it at the Hall. The club checks the route card.",
+    "evidence": [
+      "Places in a line: Gate — Garden — Hall — Library.",
+      "Only neighboring places are connected. Each path takes one step, both ways.",
+      "The Garden–Hall path is open. All other shown paths are also open.",
+      "The crate was moved exactly two steps, without turning back, starting at Gate."
+    ],
+    "tasks": [
+      "Where is the crate now?",
+      "Which place did it pass through?",
+      "Could it be at Library after only two steps? Show the needed step count."
+    ],
+    "answers": [
+      "Hall: Gate to Garden is one, Garden to Hall is two.",
+      "Garden.",
+      "No. Gate to Library needs three steps along this line."
+    ],
+    "hints": [
+      "Trace one path for each step.",
+      "Count edges, not the number of place names."
+    ],
+    "boundary": "Recap for this linked chapter: the display crate is at Hall. Later cases state any facts they need again.",
+    "close": "The crate is safe at Hall. Next, the club will sort the display cards."
+  },
+  {
+    "id": 18,
+    "title": "The Three Display Cards",
+    "story": "The crate at Hall holds three display cards. Their fronts look alike. The notebook lists test results, so nobody has to open the sealed samples.",
+    "evidence": [
+      "Red-label card: sample moved toward the magnet.",
+      "Blue-label card: sample did not move toward the magnet.",
+      "Green-label card: sample moved toward the magnet.",
+      "The labels have their color NAMES printed in words.",
+      "The fair’s magnet display needs the one card whose sample did NOT move."
+    ],
+    "tasks": [
+      "Which label belongs on that display?",
+      "Which two labels have matching results?",
+      "Does this establish that the blue-label sample is plastic? Explain."
+    ],
+    "answers": [
+      "Blue-label card. It is the only non-moving result.",
+      "Red-label and Green-label.",
+      "No. Many materials may give that result. The record does not identify the sample."
+    ],
+    "hints": [
+      "Use the words moved and did not move.",
+      "A behavior can rule out a match without naming the material."
+    ],
+    "boundary": "No actual magnets are needed. Label color does not cause the recorded behavior.",
+    "close": "The blue-label card goes to the display. Its material stays unnamed."
+  },
+  {
+    "id": 19,
+    "title": "The Missing Name Strip",
+    "story": "The Hall table has three finished exhibits. Each child made one. Their name strips slipped into an envelope. Jo reads the notes.",
+    "evidence": [
+      "Exhibits: bridge, map, shadow. Each belongs to exactly one of Maya, Sam, and Jo.",
+      "Maya made the map.",
+      "Sam did not make the bridge.",
+      "All notes are correct."
+    ],
+    "tasks": [
+      "Match each child to an exhibit.",
+      "Which exhibit belongs to Jo?",
+      "Sam says Jo made the shadow. Which two clues together show that cannot work?"
+    ],
+    "answers": [
+      "Maya: map. Sam: shadow. Jo: bridge.",
+      "Bridge.",
+      "Maya already has map; Sam cannot have bridge, so Sam must have shadow. One-to-one ownership leaves bridge for Jo."
+    ],
+    "hints": [
+      "Assign Maya first.",
+      "Of bridge and shadow, which can Sam take?"
+    ],
+    "boundary": "These notes establish ownership for this case. Do not infer skill or preferences from who made an exhibit.",
+    "close": "The names go back beside the exhibits. Everyone’s work gets credit."
+  },
+  {
+    "id": 20,
+    "title": "The Fair Can Open",
+    "story": "One final delivery card is missing its destination. The club puts together all the facts. Each fact below is enough to check without returning to earlier pages.",
+    "evidence": [
+      "Stops in order: Gate — Garden — Hall — Library. Each neighboring path is one step, both ways.",
+      "The delivery started at Gate and moved exactly two steps without turning back.",
+      "The parcel holds the bridge exhibit. Jo made the bridge.",
+      "The recorded bridge test held 8 weights; the flat-sheet test held 2 under the same stated setup."
+    ],
+    "tasks": [
+      "Where is the parcel, and whose exhibit is inside?",
+      "How many more weights did the recorded bridge test hold than the flat-sheet test?",
+      "Write one conclusion you CAN support and one thing you CANNOT know from this record."
+    ],
+    "answers": [
+      "At Hall, with Jo’s bridge. Two steps along the line reach Hall; ownership is explicitly supplied.",
+      "6 more: 8 minus 2.",
+      "Example supported: the parcel reached Hall. Example unknown: its arrival time. Other answers are valid if they respect the record. This last prompt intentionally allows several explanations."
+    ],
+    "hints": [
+      "Count from Gate: Garden is one step.",
+      "Use only the stated facts. No arrival time appears."
+    ],
+    "boundary": "A supported conclusion can be firm while other facts remain unknown. The open explanation task has more than one valid response.",
+    "close": "The fair opens. Maya, Sam, and Jo thank the helpers. “Best clue today?” asks Sam. “Checking before guessing,” says Jo."
+  }
+]
