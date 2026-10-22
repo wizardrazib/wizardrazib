@@ -116,26 +116,61 @@ def wrap(text,font,size,width):
   lines.append(line)
  return lines
 
+from visuals import icon, strip, note_box, star, KINDS
+LAYOUT=[]
 def drawpage(title,blocks,space=False):
  global page
  page+=1; inside=45; outside=36
  left=inside if page%2 else outside; right=outside if page%2 else inside
- width=W-left-right; y=H-45
- pdf.setFillColor(black)
- for line in wrap(title,'Bold',21,width):
+ width=W-left-right; y=H-66
+ pdf.setFillColor(black);pdf.setFont('Bold',8)
+ pdf.drawString(left,686,'THE NEIGHBORHOOD DETECTIVE CLUB  /  LOOK • CHECK • EXPLAIN')
+ pdf.setLineWidth(1.5);pdf.line(left,676,W-right,676)
+ for line in wrap(title,'Bold',21,width-32):
   pdf.setFont('Bold',21);pdf.drawString(left,y,line);y-=28
- y-=14
+ icon(pdf,'magnifier',W-right-24,H-68,25)
+ y-=10
  md.append(f'\n## Page {page}: {title}\n')
  for block in blocks:
   md.append(block+'\n')
-  for line in wrap(block,'Body',14,width):
-   if y<64:raise ValueError(f'Overflow page {page}: {title}')
-   pdf.setFont('Body',14);pdf.drawString(left,y,line);y-=21
-  y-=15
+  for line in wrap(block,'Body',13.5,width):
+   if y<74:raise ValueError(f'Overflow page {page}: {title}')
+   pdf.setFont('Body',13.5);pdf.drawString(left,y,line);y-=19.5
+  y-=12
+ case_id=(page-9)//4+1 if 9<=page<=88 else (page-98 if 99<=page<=118 else None)
+ phase=(page-9)%4 if 9<=page<=88 else None
+ free=y-65
  if space:
-  pdf.setStrokeColor(HexColor('#999999'));pdf.setLineWidth(.6)
-  for yy in range(int(y-14),78,-27):pdf.line(left,yy,W-right,yy)
- pdf.setFont('Body',9);pdf.drawString(left,29,'JUNIOR NEIGHBORHOOD DETECTIVES');pdf.drawRightString(W-right,29,str(page))
+  # Reserve a real writing area, with case-specific objects beside it.
+  h=min(185,free-10)
+  if h<85:raise ValueError(f'Insufficient response space on {page}: {h}')
+  solved=phase==3
+  if phase==1 and case_id in (1,4,19):
+   # Blank visual cross-check grid; no answers prefilled.
+   rows=['Maya','Sam','Jo'] if case_id in (1,19) else ['Brush','Scoop','Can']
+   cols=['A','B','C'] if case_id==1 else (['Bridge','Map','Shadow'] if case_id==19 else ['1','2','3'])
+   top=y-15; gx=left+155; cell=65
+   pdf.setFont('Bold',10);pdf.drawString(left,top,'MARK YOUR MATCHES')
+   for j,label in enumerate(cols):pdf.drawCentredString(gx+j*cell+cell/2,top-22,label)
+   for i,label in enumerate(rows):
+    yy=top-47-i*28;pdf.drawString(left+20,yy,label)
+    for j in range(3):pdf.rect(gx+j*cell,yy-7,cell,28)
+   if top-145>200:
+    strip(pdf,left,180,width,min(125,top-165-180),case_id)
+   note_box(pdf,left,65,width,90)
+  else:
+   note_box(pdf,left,65,width,h,solved)
+   artroom=y-(65+h)-18
+   if artroom>=65:
+    strip(pdf,left,65+h+12,width,min(155,artroom-5),case_id)
+ else:
+  if page!=2 and free>=77:
+   h=min(170,free-9)
+   strip(pdf,left,65,width,h,case_id)
+   pdf.setFont('Body',8);pdf.drawCentredString(left+width/2,53,'Pictures are schematic. Use the written records for measurements and clues.')
+ LAYOUT.append({'page':page,'text_bottom':round(y,2),'response_page':space,'case':case_id,'solved_badge':phase==3})
+ icon(pdf,'foot',W-right-50,20,23)
+ pdf.setFillColor(black);pdf.setFont('Body',8);pdf.drawString(left,29,'JUNIOR NEIGHBORHOOD DETECTIVES');pdf.drawRightString(W-right,29,str(page))
  pdf.showPage()
 front=[('Junior Neighborhood Detectives',['Science Clues & Logic Cases for Ages 7–9','Mira West','Twenty friendly cases. Observe. Check. Explain.']),
 ('Copyright',['Junior Neighborhood Detectives','Science Clues & Logic Cases for Ages 7–9','Copyright © 2026 Mira West','All rights reserved. Except as permitted by applicable law, no part of this book may be reproduced, stored, or transmitted in any form without prior written permission from the copyright holder.','First edition, 2026.','This is a work of fiction. Names, characters, places, and events are imaginary. Any resemblance to actual persons or events is coincidental.','Activities are intended for educational entertainment. Use the supplied records; no physical experiments are required. Children should ask a trusted adult for help when needed.']),
@@ -162,37 +197,62 @@ drawpage('Your detective reflection',['Which case made you change your mind? Wha
 drawpage('A note for grown-ups',['Read instructions together if helpful. Praise a clear explanation, not speed. Accept equivalent answers supported by the evidence.','The last case includes an open explanation task. The answer desk gives an example, not the only valid response.','Ask: What do you know? What are you guessing? What evidence would change your mind?','Celebrate your child’s careful reasoning, thoughtful questions, and willingness to try again. Every checked clue is a reason to feel proud.','Thank you for helping a young detective think with care.'])
 assert page==120
 pdf.save()
+(OUT/'layout-audit.json').write_text(json.dumps(LAYOUT,indent=2))
 (OUT/'manuscript.md').write_text('# Junior Neighborhood Detectives\n\nMira West\n\n'+ '\n'.join(md))
 (OUT/'cases.json').write_text(json.dumps(C,indent=2,ensure_ascii=False))
 # Full-wrap cover: locally drawn original vector art, no stock or image service.
 spine=120*.002252; cw=16.25+spine; ch=10.25
 cv=canvas.Canvas(str(OUT/'cover-full-wrap.pdf'),pagesize=(cw*72,ch*72));cv.setTitle('Junior Neighborhood Detectives — cover');cv.setAuthor('Mira West')
-navy=HexColor('#133449');teal=HexColor('#187F83');gold=HexColor('#F7CB57')
-cv.setFillColor(navy);cv.rect(0,0,cw*72,ch*72,fill=1,stroke=0)
+navy=HexColor('#14354A');teal=HexColor('#19B9B0');gold=HexColor('#FFCE3D');coral=HexColor('#FF7058')
 fx=(.125+8+spine)*72
+cv.setFillColor(navy);cv.rect(0,0,cw*72,ch*72,fill=1,stroke=0)
 cv.setFillColor(teal);cv.rect(fx,0,8.125*72,ch*72,fill=1,stroke=0)
-cv.setFillColor(gold);cv.roundRect(fx+32,590,512,100,12,fill=1,stroke=0)
-cv.setFillColor(navy);cv.setFont('Bold',30)
-cv.drawString(fx+47,650,'JUNIOR NEIGHBORHOOD');cv.drawString(fx+47,610,'DETECTIVES')
-cv.setFillColor(white);cv.setFont('Bold',19);cv.drawString(fx+42,550,'Science Clues & Logic Cases')
-cv.setFont('Body',17);cv.drawString(fx+42,520,'FOR AGES 7–9')
-# original notebook and three clue cards
-cv.setFillColor(HexColor('#FFF9E8'));cv.roundRect(fx+70,165,360,290,14,fill=1,stroke=0)
-cv.setStrokeColor(teal);cv.setLineWidth(2)
-for yy in range(210,420,35):cv.line(fx+105,yy,fx+395,yy)
-cv.setFillColor(navy);cv.setFont('Bold',23);cv.drawString(fx+110,410,'LOOK. CHECK. EXPLAIN.')
-cv.setStrokeColor(gold);cv.setLineWidth(14);cv.circle(fx+360,305,62,fill=0,stroke=1);cv.line(fx+403,260,fx+470,190)
-cv.setFillColor(teal);cv.circle(fx+150,320,18,fill=1,stroke=0)
-cv.rect(fx+200,300,35,35,fill=1,stroke=0)
-p=cv.beginPath();p.moveTo(fx+125,235);p.lineTo(fx+145,270);p.lineTo(fx+165,235);p.close();cv.drawPath(p,fill=1,stroke=0)
-cv.setFillColor(white);cv.setFont('Bold',24);cv.drawString(fx+42,80,'MIRA WEST')
-cv.setFont('Bold',24);cv.drawString(40,650,'Small mix-ups. Big thinking.')
-back=['A name card falls. A record gets mixed up.','A fair display needs one final clue.','Join Maya, Sam, and Jo for twenty friendly','cases about a neighborhood getting ready','for its community fair.','Use maps, measurement records, simple codes,','and logic to work out what happened.','All the evidence is on the page.','No experiments or special supplies needed.','Includes optional hints and explained answers.']
+# Bright fairground backdrop with original bunting and garden scene.
+cv.setStrokeColor(navy);cv.setLineWidth(3)
+cv.line(fx+12,468,fx+565,468)
+for i in range(12):
+ xx=fx+15+i*46
+ cv.setFillColor(gold if i%2 else coral)
+ q=cv.beginPath();q.moveTo(xx,468);q.lineTo(xx+38,468);q.lineTo(xx+19,440);q.close();cv.drawPath(q,stroke=1,fill=1)
+# Layered title sign, bold and legible even as a thumbnail.
+cv.setFillColor(navy);cv.roundRect(fx+30,511,520,184,20,fill=1,stroke=0)
+cv.setFillColor(gold);cv.roundRect(fx+22,519,520,184,20,fill=1,stroke=0)
+cv.setFillColor(navy);cv.setFont('Bold',22);cv.drawCentredString(fx+282,670,'JUNIOR NEIGHBORHOOD')
+cv.setFont('Bold',48);cv.drawCentredString(fx+282,610,'DETECTIVES')
+cv.setFont('Bold',18);cv.drawCentredString(fx+282,571,'Science Clues & Logic Cases')
+cv.setFont('Bold',13);cv.drawCentredString(fx+282,541,'FOR AGES 7–9')
+# Illustrated clue board, cards, gear, and fair objects.
+cv.setFillColor(HexColor('#FFF9E7'));cv.setStrokeColor(navy);cv.setLineWidth(3)
+cv.roundRect(fx+90,166,380,258,16,fill=1)
+cv.setFillColor(coral);cv.roundRect(fx+175,405,210,33,8,fill=1)
+cv.setFillColor(navy);cv.setFont('Bold',13);cv.drawCentredString(fx+280,416,'THE FAIR DAY MYSTERY')
+for xx,yy,kind in [(fx+112,282,'seed'),(fx+248,275,'map'),(fx+340,190,'card')]:
+ cv.setFillColor(white);cv.setStrokeColor(navy);cv.roundRect(xx,yy,95,100,7,fill=1)
+ icon(cv,kind,xx+8,yy+8,78,True)
+ cv.setFillColor(coral);cv.circle(xx+47,yy+93,5,fill=1,stroke=0)
+cv.setStrokeColor(coral);cv.setLineWidth(3);cv.setDash(4,4);cv.line(fx+166,288,fx+290,265);cv.line(fx+290,265,fx+386,278);cv.setDash()
+icon(cv,'pot',fx+15,150,123,True);icon(cv,'can',fx+440,158,111,True)
+icon(cv,'magnifier',fx+170,164,150,True)
+icon(cv,'foot',fx+490,328,48,True);icon(cv,'foot',fx+35,347,45,True)
+cv.setFillColor(gold);cv.setStrokeColor(navy);cv.circle(fx+65,268,45,fill=1)
+cv.setFillColor(navy);cv.setFont('Bold',25);cv.drawCentredString(fx+65,272,'20');cv.setFont('Bold',11);cv.drawCentredString(fx+65,253,'CASES')
+cv.setFillColor(gold);cv.roundRect(fx+50,100,470,37,10,fill=1,stroke=0)
+cv.setFillColor(navy);cv.setFont('Bold',15);cv.drawCentredString(fx+285,112,'LOOK CLOSELY. FOLLOW THE CLUES!')
+cv.setFont('Bold',25);cv.drawCentredString(fx+282,57,'MIRA WEST')
+# Back cover: concise blurb plus illustrated feature cards.
+cv.setFillColor(gold);cv.setFont('Bold',24);cv.drawString(40,665,'Small mix-ups.')
+cv.setFillColor(white);cv.drawString(40,631,'Big thinking!')
+back=['Join Maya, Sam, and Jo as they get their','neighborhood ready for a community fair.','Follow friendly mysteries with maps,','science records, codes, and clever clues.','All the evidence is on the page.','No experiments or special supplies needed.']
 cv.setFont('Body',17)
-for i,line in enumerate(back):cv.drawString(40,590-i*29,line)
-cv.setFillColor(gold);cv.setFont('Bold',18);cv.drawString(40,205,'Solve the mix-up. Not blame a person.')
-# Unprinted white barcode zone, to be confirmed against final official template.
-cv.setFillColor(white);cv.rect(6*72, .375*72,2*72,1.2*72,fill=1,stroke=0)
+for i,line in enumerate(back):cv.drawString(40,581-i*28,line)
+for yy,kind,heading,detail in [(287,'magnifier','20 FRIENDLY CASES','Observe, check, and explain.'),(183,'badge','HINTS & ANSWERS','A helping hand when you need it.')]:
+ cv.setFillColor(HexColor('#FFF9E7'));cv.roundRect(40,yy,480,87,12,fill=1,stroke=0)
+ icon(cv,kind,54,yy+9,65,True)
+ cv.setFillColor(navy);cv.setFont('Bold',17);cv.drawString(138,yy+52,heading);cv.setFont('Body',13);cv.drawString(138,yy+26,detail)
+cv.setFillColor(gold);cv.setFont('Bold',13);cv.drawString(40,138,'Solve the mix-up. Not blame a person.')
+icon(cv,'map',42,39,80,True);icon(cv,'seed',152,39,75,True)
+# Barcode reserve is clear; final position follows the official KDP template.
+cv.setFillColor(white);cv.rect(6*72,.375*72,2*72,1.2*72,fill=1,stroke=0)
 cv.save()
 # 300-DPI front and full-wrap raster companions, using the installed local renderer.
 import fitz

@@ -14,5 +14,11 @@
   "case_count": 20,
   "raster_cover_created": true,
   "checks": "Pagination, text block vertical fit, selected logic and arithmetic assertions passed. Not an independent editorial/science review.",
-  "release_status": "Copyright page finalized. Local print formatting checked; independent review, official cover-template verification, KDP Previewer and physical proof remain required."
+  "release_status": "Copyright page finalized. Local print formatting checked; independent review, official cover-template verification, KDP Previewer and physical proof remain required.",
+  "solved_badges_verified": 20,
+  "text_bounds_all_pages": "PASS",
+  "case_10_heading": "PASS",
+  "parent_note": "PASS",
+  "visuals": "Original vector line art; no external assets. Cover includes original vector scene and 300 DPI raster companions.",
+  "interior_vector_only": true
 }

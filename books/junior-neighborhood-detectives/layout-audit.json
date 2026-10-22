@@ -1,0 +1,842 @@
+[
+  {
+    "page": 1,
+    "text_bottom": 521.5,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 2,
+    "text_bottom": 298.0,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 3,
+    "text_bottom": 431.5,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 4,
+    "text_bottom": 431.5,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 5,
+    "text_bottom": 431.5,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 6,
+    "text_bottom": 431.5,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 7,
+    "text_bottom": 431.5,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 8,
+    "text_bottom": 407.5,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 9,
+    "text_bottom": 341.5,
+    "response_page": false,
+    "case": 1,
+    "solved_badge": false
+  },
+  {
+    "page": 10,
+    "text_bottom": 502.0,
+    "response_page": true,
+    "case": 1,
+    "solved_badge": false
+  },
+  {
+    "page": 11,
+    "text_bottom": 502.0,
+    "response_page": true,
+    "case": 1,
+    "solved_badge": false
+  },
+  {
+    "page": 12,
+    "text_bottom": 412.0,
+    "response_page": true,
+    "case": 1,
+    "solved_badge": true
+  },
+  {
+    "page": 13,
+    "text_bottom": 451.0,
+    "response_page": false,
+    "case": 2,
+    "solved_badge": false
+  },
+  {
+    "page": 14,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 2,
+    "solved_badge": false
+  },
+  {
+    "page": 15,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 2,
+    "solved_badge": false
+  },
+  {
+    "page": 16,
+    "text_bottom": 470.5,
+    "response_page": true,
+    "case": 2,
+    "solved_badge": true
+  },
+  {
+    "page": 17,
+    "text_bottom": 431.5,
+    "response_page": false,
+    "case": 3,
+    "solved_badge": false
+  },
+  {
+    "page": 18,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 3,
+    "solved_badge": false
+  },
+  {
+    "page": 19,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 3,
+    "solved_badge": false
+  },
+  {
+    "page": 20,
+    "text_bottom": 451.0,
+    "response_page": true,
+    "case": 3,
+    "solved_badge": true
+  },
+  {
+    "page": 21,
+    "text_bottom": 451.0,
+    "response_page": false,
+    "case": 4,
+    "solved_badge": false
+  },
+  {
+    "page": 22,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 4,
+    "solved_badge": false
+  },
+  {
+    "page": 23,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 4,
+    "solved_badge": false
+  },
+  {
+    "page": 24,
+    "text_bottom": 470.5,
+    "response_page": true,
+    "case": 4,
+    "solved_badge": true
+  },
+  {
+    "page": 25,
+    "text_bottom": 400.0,
+    "response_page": false,
+    "case": 5,
+    "solved_badge": false
+  },
+  {
+    "page": 26,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 5,
+    "solved_badge": false
+  },
+  {
+    "page": 27,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 5,
+    "solved_badge": false
+  },
+  {
+    "page": 28,
+    "text_bottom": 470.5,
+    "response_page": true,
+    "case": 5,
+    "solved_badge": true
+  },
+  {
+    "page": 29,
+    "text_bottom": 439.0,
+    "response_page": false,
+    "case": 6,
+    "solved_badge": false
+  },
+  {
+    "page": 30,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 6,
+    "solved_badge": false
+  },
+  {
+    "page": 31,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 6,
+    "solved_badge": false
+  },
+  {
+    "page": 32,
+    "text_bottom": 451.0,
+    "response_page": true,
+    "case": 6,
+    "solved_badge": true
+  },
+  {
+    "page": 33,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 7,
+    "solved_badge": false
+  },
+  {
+    "page": 34,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 7,
+    "solved_badge": false
+  },
+  {
+    "page": 35,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 7,
+    "solved_badge": false
+  },
+  {
+    "page": 36,
+    "text_bottom": 451.0,
+    "response_page": true,
+    "case": 7,
+    "solved_badge": true
+  },
+  {
+    "page": 37,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 8,
+    "solved_badge": false
+  },
+  {
+    "page": 38,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 8,
+    "solved_badge": false
+  },
+  {
+    "page": 39,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 8,
+    "solved_badge": false
+  },
+  {
+    "page": 40,
+    "text_bottom": 470.5,
+    "response_page": true,
+    "case": 8,
+    "solved_badge": true
+  },
+  {
+    "page": 41,
+    "text_bottom": 407.5,
+    "response_page": false,
+    "case": 9,
+    "solved_badge": false
+  },
+  {
+    "page": 42,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 9,
+    "solved_badge": false
+  },
+  {
+    "page": 43,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 9,
+    "solved_badge": false
+  },
+  {
+    "page": 44,
+    "text_bottom": 451.0,
+    "response_page": true,
+    "case": 9,
+    "solved_badge": true
+  },
+  {
+    "page": 45,
+    "text_bottom": 388.0,
+    "response_page": false,
+    "case": 10,
+    "solved_badge": false
+  },
+  {
+    "page": 46,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 10,
+    "solved_badge": false
+  },
+  {
+    "page": 47,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 10,
+    "solved_badge": false
+  },
+  {
+    "page": 48,
+    "text_bottom": 451.0,
+    "response_page": true,
+    "case": 10,
+    "solved_badge": true
+  },
+  {
+    "page": 49,
+    "text_bottom": 388.0,
+    "response_page": false,
+    "case": 11,
+    "solved_badge": false
+  },
+  {
+    "page": 50,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 11,
+    "solved_badge": false
+  },
+  {
+    "page": 51,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 11,
+    "solved_badge": false
+  },
+  {
+    "page": 52,
+    "text_bottom": 451.0,
+    "response_page": true,
+    "case": 11,
+    "solved_badge": true
+  },
+  {
+    "page": 53,
+    "text_bottom": 451.0,
+    "response_page": false,
+    "case": 12,
+    "solved_badge": false
+  },
+  {
+    "page": 54,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 12,
+    "solved_badge": false
+  },
+  {
+    "page": 55,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 12,
+    "solved_badge": false
+  },
+  {
+    "page": 56,
+    "text_bottom": 451.0,
+    "response_page": true,
+    "case": 12,
+    "solved_badge": true
+  },
+  {
+    "page": 57,
+    "text_bottom": 400.0,
+    "response_page": false,
+    "case": 13,
+    "solved_badge": false
+  },
+  {
+    "page": 58,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 13,
+    "solved_badge": false
+  },
+  {
+    "page": 59,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 13,
+    "solved_badge": false
+  },
+  {
+    "page": 60,
+    "text_bottom": 470.5,
+    "response_page": true,
+    "case": 13,
+    "solved_badge": true
+  },
+  {
+    "page": 61,
+    "text_bottom": 439.0,
+    "response_page": false,
+    "case": 14,
+    "solved_badge": false
+  },
+  {
+    "page": 62,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 14,
+    "solved_badge": false
+  },
+  {
+    "page": 63,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 14,
+    "solved_badge": false
+  },
+  {
+    "page": 64,
+    "text_bottom": 451.0,
+    "response_page": true,
+    "case": 14,
+    "solved_badge": true
+  },
+  {
+    "page": 65,
+    "text_bottom": 439.0,
+    "response_page": false,
+    "case": 15,
+    "solved_badge": false
+  },
+  {
+    "page": 66,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 15,
+    "solved_badge": false
+  },
+  {
+    "page": 67,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 15,
+    "solved_badge": false
+  },
+  {
+    "page": 68,
+    "text_bottom": 470.5,
+    "response_page": true,
+    "case": 15,
+    "solved_badge": true
+  },
+  {
+    "page": 69,
+    "text_bottom": 470.5,
+    "response_page": false,
+    "case": 16,
+    "solved_badge": false
+  },
+  {
+    "page": 70,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 16,
+    "solved_badge": false
+  },
+  {
+    "page": 71,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 16,
+    "solved_badge": false
+  },
+  {
+    "page": 72,
+    "text_bottom": 470.5,
+    "response_page": true,
+    "case": 16,
+    "solved_badge": true
+  },
+  {
+    "page": 73,
+    "text_bottom": 400.0,
+    "response_page": false,
+    "case": 17,
+    "solved_badge": false
+  },
+  {
+    "page": 74,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 17,
+    "solved_badge": false
+  },
+  {
+    "page": 75,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 17,
+    "solved_badge": false
+  },
+  {
+    "page": 76,
+    "text_bottom": 470.5,
+    "response_page": true,
+    "case": 17,
+    "solved_badge": true
+  },
+  {
+    "page": 77,
+    "text_bottom": 388.0,
+    "response_page": false,
+    "case": 18,
+    "solved_badge": false
+  },
+  {
+    "page": 78,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 18,
+    "solved_badge": false
+  },
+  {
+    "page": 79,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 18,
+    "solved_badge": false
+  },
+  {
+    "page": 80,
+    "text_bottom": 470.5,
+    "response_page": true,
+    "case": 18,
+    "solved_badge": true
+  },
+  {
+    "page": 81,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 19,
+    "solved_badge": false
+  },
+  {
+    "page": 82,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 19,
+    "solved_badge": false
+  },
+  {
+    "page": 83,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 19,
+    "solved_badge": false
+  },
+  {
+    "page": 84,
+    "text_bottom": 451.0,
+    "response_page": true,
+    "case": 19,
+    "solved_badge": true
+  },
+  {
+    "page": 85,
+    "text_bottom": 361.0,
+    "response_page": false,
+    "case": 20,
+    "solved_badge": false
+  },
+  {
+    "page": 86,
+    "text_bottom": 521.5,
+    "response_page": true,
+    "case": 20,
+    "solved_badge": false
+  },
+  {
+    "page": 87,
+    "text_bottom": 502.0,
+    "response_page": true,
+    "case": 20,
+    "solved_badge": false
+  },
+  {
+    "page": 88,
+    "text_bottom": 412.0,
+    "response_page": true,
+    "case": 20,
+    "solved_badge": true
+  },
+  {
+    "page": 89,
+    "text_bottom": 407.5,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 90,
+    "text_bottom": 427.0,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 91,
+    "text_bottom": 427.0,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 92,
+    "text_bottom": 427.0,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 93,
+    "text_bottom": 427.0,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 94,
+    "text_bottom": 427.0,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 95,
+    "text_bottom": 427.0,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 96,
+    "text_bottom": 427.0,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 97,
+    "text_bottom": 427.0,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 98,
+    "text_bottom": 427.0,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 99,
+    "text_bottom": 380.5,
+    "response_page": false,
+    "case": 1,
+    "solved_badge": false
+  },
+  {
+    "page": 100,
+    "text_bottom": 400.0,
+    "response_page": false,
+    "case": 2,
+    "solved_badge": false
+  },
+  {
+    "page": 101,
+    "text_bottom": 400.0,
+    "response_page": false,
+    "case": 3,
+    "solved_badge": false
+  },
+  {
+    "page": 102,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 4,
+    "solved_badge": false
+  },
+  {
+    "page": 103,
+    "text_bottom": 400.0,
+    "response_page": false,
+    "case": 5,
+    "solved_badge": false
+  },
+  {
+    "page": 104,
+    "text_bottom": 439.0,
+    "response_page": false,
+    "case": 6,
+    "solved_badge": false
+  },
+  {
+    "page": 105,
+    "text_bottom": 400.0,
+    "response_page": false,
+    "case": 7,
+    "solved_badge": false
+  },
+  {
+    "page": 106,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 8,
+    "solved_badge": false
+  },
+  {
+    "page": 107,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 9,
+    "solved_badge": false
+  },
+  {
+    "page": 108,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 10,
+    "solved_badge": false
+  },
+  {
+    "page": 109,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 11,
+    "solved_badge": false
+  },
+  {
+    "page": 110,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 12,
+    "solved_badge": false
+  },
+  {
+    "page": 111,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 13,
+    "solved_badge": false
+  },
+  {
+    "page": 112,
+    "text_bottom": 439.0,
+    "response_page": false,
+    "case": 14,
+    "solved_badge": false
+  },
+  {
+    "page": 113,
+    "text_bottom": 439.0,
+    "response_page": false,
+    "case": 15,
+    "solved_badge": false
+  },
+  {
+    "page": 114,
+    "text_bottom": 439.0,
+    "response_page": false,
+    "case": 16,
+    "solved_badge": false
+  },
+  {
+    "page": 115,
+    "text_bottom": 439.0,
+    "response_page": false,
+    "case": 17,
+    "solved_badge": false
+  },
+  {
+    "page": 116,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 18,
+    "solved_badge": false
+  },
+  {
+    "page": 117,
+    "text_bottom": 419.5,
+    "response_page": false,
+    "case": 19,
+    "solved_badge": false
+  },
+  {
+    "page": 118,
+    "text_bottom": 361.0,
+    "response_page": false,
+    "case": 20,
+    "solved_badge": false
+  },
+  {
+    "page": 119,
+    "text_bottom": 482.5,
+    "response_page": true,
+    "case": null,
+    "solved_badge": false
+  },
+  {
+    "page": 120,
+    "text_bottom": 380.5,
+    "response_page": false,
+    "case": null,
+    "solved_badge": false
+  }
+]
