@@ -490,7 +490,7 @@ The lost label says: “Grains still visible after stirring.”
 
 ## Page 46: Investigate
 
-Case 10 • Activity 1
+Case 10 Activity 1
 
 Which card needs the lost label?
 
@@ -1364,6 +1364,6 @@ The last case includes an open explanation task. The answer desk gives an exampl
 
 Ask: What do you know? What are you guessing? What evidence would change your mind?
 
-For development feedback, note the case number, confusing instruction, assistance needed, and any other answer that fits. Do not record identifying child information in a shared file.
+Celebrate your child’s careful reasoning, thoughtful questions, and willingness to try again. Every checked clue is a reason to feel proud.
 
 Thank you for helping a young detective think with care.

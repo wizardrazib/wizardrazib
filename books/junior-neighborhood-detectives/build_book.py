@@ -149,7 +149,7 @@ for t,b in front:drawpage(t,b)
 for c in C:
  prefix=f'Case {c["id"]}: {c["title"]}'
  drawpage(prefix,[c['story']]+c['evidence'])
- drawpage('Investigate',[f'Case {c["id"]} • Activity 1',c['tasks'][0],'Use this space for your matches, notes, or drawing.'],True)
+ drawpage('Investigate',[(f'Case {c["id"]} Activity 1' if c["id"] == 10 else f'Case {c["id"]} • Activity 1'),c['tasks'][0],'Use this space for your matches, notes, or drawing.'],True)
  drawpage('Check the clues',[f'Case {c["id"]} • Activity 2',c['tasks'][1],'Which number, record, or rule helped you?'],True)
  drawpage('Explain and close',[f'Case {c["id"]} • Activity 3',c['tasks'][2],c['close'],'Think carefully: '+c['boundary']],True)
 for i in range(0,20,2):
@@ -159,7 +159,7 @@ for i in range(0,20,2):
 for c in C:
  drawpage(f'Answers • Case {c["id"]}',[c['title']]+[f'Activity {i+1}: {a}' for i,a in enumerate(c['answers'])]+['Careful thinking: '+c['boundary']])
 drawpage('Your detective reflection',['Which case made you change your mind? What clue helped?','Which did you enjoy most: matching, measurement, maps, codes, or testing an explanation?','Draw yourself checking a clue. You do not need a badge to think carefully.'],True)
-drawpage('A note for grown-ups',['Read instructions together if helpful. Praise a clear explanation, not speed. Accept equivalent answers supported by the evidence.','The last case includes an open explanation task. The answer desk gives an example, not the only valid response.','Ask: What do you know? What are you guessing? What evidence would change your mind?','For development feedback, note the case number, confusing instruction, assistance needed, and any other answer that fits. Do not record identifying child information in a shared file.','Thank you for helping a young detective think with care.'])
+drawpage('A note for grown-ups',['Read instructions together if helpful. Praise a clear explanation, not speed. Accept equivalent answers supported by the evidence.','The last case includes an open explanation task. The answer desk gives an example, not the only valid response.','Ask: What do you know? What are you guessing? What evidence would change your mind?','Celebrate your child’s careful reasoning, thoughtful questions, and willingness to try again. Every checked clue is a reason to feel proud.','Thank you for helping a young detective think with care.'])
 assert page==120
 pdf.save()
 (OUT/'manuscript.md').write_text('# Junior Neighborhood Detectives\n\nMira West\n\n'+ '\n'.join(md))
