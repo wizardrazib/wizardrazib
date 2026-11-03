@@ -1,0 +1,39 @@
+{
+  "sample_pages": 4,
+  "answer_key_pages": 2,
+  "final_book_pages_planned": 108,
+  "trim_inches": [
+    8.5,
+    11
+  ],
+  "bleed": false,
+  "numbered_puzzles_in_sample": 8,
+  "full_book_puzzles_required": 100,
+  "expected_answers": [
+    65,
+    35,
+    80,
+    20,
+    205,
+    80,
+    [
+      "Banana",
+      "Carrot"
+    ],
+    65
+  ],
+  "unique_pair_verified": [
+    [
+      "Banana",
+      "Carrot"
+    ]
+  ],
+  "receipt_totals_verified": [
+    80,
+    135
+  ],
+  "integer_cents_only": true,
+  "text_bounds": "PASS",
+  "human_educator_review": "pending",
+  "competitor_interior_inspection": "unavailable; see RESEARCH.md"
+}
