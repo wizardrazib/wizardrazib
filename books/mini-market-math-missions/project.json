@@ -12,7 +12,9 @@
   "interior_pages": 108,
   "ink": "black and white",
   "bleed": false,
-  "stage": "four-page sample awaiting author review",
+  "stage": "complete 108-page print-formatted edition; external proof/Previewer pending",
   "sample_puzzle_count": 8,
-  "target_puzzle_count": 100
+  "target_puzzle_count": 100,
+  "completed_puzzle_count": 100,
+  "completed_pages": 108
 }

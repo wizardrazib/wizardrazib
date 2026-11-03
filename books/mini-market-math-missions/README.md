@@ -1,3 +1,7 @@
+# Complete edition available
+
+The complete 108-page edition, 300 DPI covers, metadata and downloadable ZIP are in [`release/`](release/). The sample files below are retained as the original approved design archive.
+
 # Mini-Market Math Missions — review sample
 
 Author: Mira West

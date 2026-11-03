@@ -1,0 +1,42 @@
+{
+  "pages": 108,
+  "activity_pages": 50,
+  "answer_pages": 50,
+  "front_pages": 7,
+  "closing_pages": 1,
+  "puzzles": 100,
+  "missions": 25,
+  "departments": 6,
+  "unique_illustrated_products": 24,
+  "mission_stars": 25,
+  "trim_inches": [
+    8.5,
+    11
+  ],
+  "bleed": false,
+  "safe_margins_points": {
+    "inside": 48,
+    "outside": 40
+  },
+  "cover_inches": [
+    17.493216,
+    11.25
+  ],
+  "spine_inches": 0.24321600000000002,
+  "cover_raster_pixels": [
+    5248,
+    3375
+  ],
+  "arithmetic_all_tasks": "PASS independent typed validators",
+  "pair_uniqueness": "PASS all pair tasks",
+  "page_text_bounds": "PASS all 108 pages",
+  "all_pages_rendered": true,
+  "copyright_page": "PASS",
+  "retail_text_scan": "PASS",
+  "answer_key_numbers": "PASS exactly 1\u2013100",
+  "human_educator_review": "not performed",
+  "kdp_previewer_and_template": "not performed",
+  "physical_proof": "not performed",
+  "rendered_answer_values": "PASS all 100 answers matched to correct answer-key pages",
+  "cover_title_subtitle_author": "PASS exact requested text across line breaks"
+}

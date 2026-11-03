@@ -1,0 +1,1899 @@
+[
+  {
+    "mission": 1,
+    "department": "Fruit & Veggie Stand",
+    "prices": {
+      "Apple": 15,
+      "Banana": 30,
+      "Carrot": 50,
+      "Pear": 85
+    },
+    "puzzles": [
+      {
+        "id": 1,
+        "type": "sum",
+        "question": "Buy one apple and one carrot. What is their total cost?",
+        "answer": 65,
+        "explanation": "15 + 50 = 65¢. Add one price for each item.",
+        "terms": [
+          15,
+          50
+        ],
+        "items": [
+          "Apple",
+          "Carrot"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "change",
+        "question": "Buy the same two items for 65¢. Pay 100¢. How much change comes back?",
+        "answer": 35,
+        "explanation": "100 − 65 = 35¢. Check: 65 + 35 = 100.",
+        "terms": [
+          100,
+          65
+        ],
+        "items": [
+          "Apple",
+          "Carrot"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "receipt",
+        "question": "The receipt lists one banana and one pear. Fill in the total.",
+        "answer": 115,
+        "explanation": "30 + 85 = 115¢. Both receipt lines are included.",
+        "terms": [
+          30,
+          85
+        ],
+        "items": [
+          "Banana",
+          "Pear"
+        ]
+      },
+      {
+        "id": 4,
+        "type": "pair",
+        "question": "Choose exactly TWO DIFFERENT items that cost 80¢ altogether. Write both names.",
+        "answer": "Banana + Carrot",
+        "explanation": "30 + 50 = 80¢. No other pair of different items on this shelf has that sum.",
+        "terms": [
+          80
+        ],
+        "items": [
+          "Banana",
+          "Carrot"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 2,
+    "department": "Fruit & Veggie Stand",
+    "prices": {
+      "Apple": 17,
+      "Banana": 32,
+      "Carrot": 52,
+      "Pear": 87
+    },
+    "puzzles": [
+      {
+        "id": 5,
+        "type": "sum",
+        "question": "Buy one apple and one carrot. What is their total cost?",
+        "answer": 69,
+        "explanation": "17 + 52 = 69¢. Add one price for each item.",
+        "terms": [
+          17,
+          52
+        ],
+        "items": [
+          "Apple",
+          "Carrot"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "change",
+        "question": "Buy the same two items for 69¢. Pay 100¢. How much change comes back?",
+        "answer": 31,
+        "explanation": "100 − 69 = 31¢. Check: 69 + 31 = 100.",
+        "terms": [
+          100,
+          69
+        ],
+        "items": [
+          "Apple",
+          "Carrot"
+        ]
+      },
+      {
+        "id": 7,
+        "type": "receipt",
+        "question": "The receipt lists one banana and one pear. Fill in the total.",
+        "answer": 119,
+        "explanation": "32 + 87 = 119¢. Both receipt lines are included.",
+        "terms": [
+          32,
+          87
+        ],
+        "items": [
+          "Banana",
+          "Pear"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "pair",
+        "question": "Choose exactly TWO DIFFERENT items that cost 84¢ altogether. Write both names.",
+        "answer": "Banana + Carrot",
+        "explanation": "32 + 52 = 84¢. No other pair of different items on this shelf has that sum.",
+        "terms": [
+          84
+        ],
+        "items": [
+          "Banana",
+          "Carrot"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 3,
+    "department": "Fruit & Veggie Stand",
+    "prices": {
+      "Apple": 19,
+      "Banana": 34,
+      "Carrot": 54,
+      "Pear": 89
+    },
+    "puzzles": [
+      {
+        "id": 9,
+        "type": "sum",
+        "question": "Buy one apple and one carrot. What is their total cost?",
+        "answer": 73,
+        "explanation": "19 + 54 = 73¢. Add one price for each item.",
+        "terms": [
+          19,
+          54
+        ],
+        "items": [
+          "Apple",
+          "Carrot"
+        ]
+      },
+      {
+        "id": 10,
+        "type": "change",
+        "question": "Buy the same two items for 73¢. Pay 100¢. How much change comes back?",
+        "answer": 27,
+        "explanation": "100 − 73 = 27¢. Check: 73 + 27 = 100.",
+        "terms": [
+          100,
+          73
+        ],
+        "items": [
+          "Apple",
+          "Carrot"
+        ]
+      },
+      {
+        "id": 11,
+        "type": "receipt",
+        "question": "The receipt lists one banana and one pear. Fill in the total.",
+        "answer": 123,
+        "explanation": "34 + 89 = 123¢. Both receipt lines are included.",
+        "terms": [
+          34,
+          89
+        ],
+        "items": [
+          "Banana",
+          "Pear"
+        ]
+      },
+      {
+        "id": 12,
+        "type": "pair",
+        "question": "Choose exactly TWO DIFFERENT items that cost 88¢ altogether. Write both names.",
+        "answer": "Banana + Carrot",
+        "explanation": "34 + 54 = 88¢. No other pair of different items on this shelf has that sum.",
+        "terms": [
+          88
+        ],
+        "items": [
+          "Banana",
+          "Carrot"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 4,
+    "department": "Fruit & Veggie Stand",
+    "prices": {
+      "Apple": 21,
+      "Banana": 36,
+      "Carrot": 56,
+      "Pear": 91
+    },
+    "puzzles": [
+      {
+        "id": 13,
+        "type": "sum",
+        "question": "Buy one apple and one carrot. What is their total cost?",
+        "answer": 77,
+        "explanation": "21 + 56 = 77¢. Add one price for each item.",
+        "terms": [
+          21,
+          56
+        ],
+        "items": [
+          "Apple",
+          "Carrot"
+        ]
+      },
+      {
+        "id": 14,
+        "type": "change",
+        "question": "Buy the same two items for 77¢. Pay 100¢. How much change comes back?",
+        "answer": 23,
+        "explanation": "100 − 77 = 23¢. Check: 77 + 23 = 100.",
+        "terms": [
+          100,
+          77
+        ],
+        "items": [
+          "Apple",
+          "Carrot"
+        ]
+      },
+      {
+        "id": 15,
+        "type": "receipt",
+        "question": "The receipt lists one banana and one pear. Fill in the total.",
+        "answer": 127,
+        "explanation": "36 + 91 = 127¢. Both receipt lines are included.",
+        "terms": [
+          36,
+          91
+        ],
+        "items": [
+          "Banana",
+          "Pear"
+        ]
+      },
+      {
+        "id": 16,
+        "type": "pair",
+        "question": "Choose exactly TWO DIFFERENT items that cost 92¢ altogether. Write both names.",
+        "answer": "Banana + Carrot",
+        "explanation": "36 + 56 = 92¢. No other pair of different items on this shelf has that sum.",
+        "terms": [
+          92
+        ],
+        "items": [
+          "Banana",
+          "Carrot"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 5,
+    "department": "Bakery Corner",
+    "prices": {
+      "Bread": 23,
+      "Muffin": 38,
+      "Cookie": 58,
+      "Pretzel": 93
+    },
+    "puzzles": [
+      {
+        "id": 17,
+        "type": "stock",
+        "question": "One shelf holds 2 bread items and one muffin. What is their total value?",
+        "answer": 84,
+        "explanation": "23 + 23 + 38 = 84¢. Count each item once.",
+        "terms": [
+          23,
+          23,
+          38
+        ],
+        "items": [
+          "Bread",
+          "Muffin"
+        ]
+      },
+      {
+        "id": 18,
+        "type": "change",
+        "question": "Buy that shelf group for 84¢. Pay 500¢ ($5). Find the change.",
+        "answer": 416,
+        "explanation": "500 − 84 = 416¢. Add the change to 84 to check.",
+        "terms": [
+          500,
+          84
+        ],
+        "items": [
+          "Bread",
+          "Muffin"
+        ]
+      },
+      {
+        "id": 19,
+        "type": "missing",
+        "question": "A receipt lists TWO cookie items and one pretzel. Total: 209¢. Find the combined price of BOTH cookie items.",
+        "answer": 116,
+        "explanation": "209 − 93 = 116¢. Check the missing line: 58 + 58 = 116¢.",
+        "terms": [
+          209,
+          93,
+          58
+        ],
+        "items": [
+          "Cookie",
+          "Pretzel"
+        ]
+      },
+      {
+        "id": 20,
+        "type": "compare",
+        "question": "Basket A: one bread and one muffin. Basket B: one cookie and one pretzel. How much cheaper is Basket A?",
+        "answer": 90,
+        "explanation": "Basket A: 61¢. Basket B: 151¢. Difference: 151 − 61 = 90¢.",
+        "terms": [
+          23,
+          38,
+          58,
+          93
+        ],
+        "items": [
+          "Bread",
+          "Muffin",
+          "Cookie",
+          "Pretzel"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 6,
+    "department": "Bakery Corner",
+    "prices": {
+      "Bread": 25,
+      "Muffin": 40,
+      "Cookie": 60,
+      "Pretzel": 95
+    },
+    "puzzles": [
+      {
+        "id": 21,
+        "type": "stock",
+        "question": "One shelf holds 3 bread items and one muffin. What is their total value?",
+        "answer": 115,
+        "explanation": "25 + 25 + 25 + 40 = 115¢. Count each item once.",
+        "terms": [
+          25,
+          25,
+          25,
+          40
+        ],
+        "items": [
+          "Bread",
+          "Muffin"
+        ]
+      },
+      {
+        "id": 22,
+        "type": "change",
+        "question": "Buy that shelf group for 115¢. Pay 500¢ ($5). Find the change.",
+        "answer": 385,
+        "explanation": "500 − 115 = 385¢. Add the change to 115 to check.",
+        "terms": [
+          500,
+          115
+        ],
+        "items": [
+          "Bread",
+          "Muffin"
+        ]
+      },
+      {
+        "id": 23,
+        "type": "missing",
+        "question": "A receipt lists TWO cookie items and one pretzel. Total: 215¢. Find the combined price of BOTH cookie items.",
+        "answer": 120,
+        "explanation": "215 − 95 = 120¢. Check the missing line: 60 + 60 = 120¢.",
+        "terms": [
+          215,
+          95,
+          60
+        ],
+        "items": [
+          "Cookie",
+          "Pretzel"
+        ]
+      },
+      {
+        "id": 24,
+        "type": "compare",
+        "question": "Basket A: one bread and one muffin. Basket B: one cookie and one pretzel. How much cheaper is Basket A?",
+        "answer": 90,
+        "explanation": "Basket A: 65¢. Basket B: 155¢. Difference: 155 − 65 = 90¢.",
+        "terms": [
+          25,
+          40,
+          60,
+          95
+        ],
+        "items": [
+          "Bread",
+          "Muffin",
+          "Cookie",
+          "Pretzel"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 7,
+    "department": "Bakery Corner",
+    "prices": {
+      "Bread": 27,
+      "Muffin": 42,
+      "Cookie": 62,
+      "Pretzel": 97
+    },
+    "puzzles": [
+      {
+        "id": 25,
+        "type": "stock",
+        "question": "One shelf holds 2 bread items and one muffin. What is their total value?",
+        "answer": 96,
+        "explanation": "27 + 27 + 42 = 96¢. Count each item once.",
+        "terms": [
+          27,
+          27,
+          42
+        ],
+        "items": [
+          "Bread",
+          "Muffin"
+        ]
+      },
+      {
+        "id": 26,
+        "type": "change",
+        "question": "Buy that shelf group for 96¢. Pay 500¢ ($5). Find the change.",
+        "answer": 404,
+        "explanation": "500 − 96 = 404¢. Add the change to 96 to check.",
+        "terms": [
+          500,
+          96
+        ],
+        "items": [
+          "Bread",
+          "Muffin"
+        ]
+      },
+      {
+        "id": 27,
+        "type": "missing",
+        "question": "A receipt lists TWO cookie items and one pretzel. Total: 221¢. Find the combined price of BOTH cookie items.",
+        "answer": 124,
+        "explanation": "221 − 97 = 124¢. Check the missing line: 62 + 62 = 124¢.",
+        "terms": [
+          221,
+          97,
+          62
+        ],
+        "items": [
+          "Cookie",
+          "Pretzel"
+        ]
+      },
+      {
+        "id": 28,
+        "type": "compare",
+        "question": "Basket A: one bread and one muffin. Basket B: one cookie and one pretzel. How much cheaper is Basket A?",
+        "answer": 90,
+        "explanation": "Basket A: 69¢. Basket B: 159¢. Difference: 159 − 69 = 90¢.",
+        "terms": [
+          27,
+          42,
+          62,
+          97
+        ],
+        "items": [
+          "Bread",
+          "Muffin",
+          "Cookie",
+          "Pretzel"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 8,
+    "department": "Bakery Corner",
+    "prices": {
+      "Bread": 29,
+      "Muffin": 44,
+      "Cookie": 64,
+      "Pretzel": 99
+    },
+    "puzzles": [
+      {
+        "id": 29,
+        "type": "stock",
+        "question": "One shelf holds 3 bread items and one muffin. What is their total value?",
+        "answer": 131,
+        "explanation": "29 + 29 + 29 + 44 = 131¢. Count each item once.",
+        "terms": [
+          29,
+          29,
+          29,
+          44
+        ],
+        "items": [
+          "Bread",
+          "Muffin"
+        ]
+      },
+      {
+        "id": 30,
+        "type": "change",
+        "question": "Buy that shelf group for 131¢. Pay 500¢ ($5). Find the change.",
+        "answer": 369,
+        "explanation": "500 − 131 = 369¢. Add the change to 131 to check.",
+        "terms": [
+          500,
+          131
+        ],
+        "items": [
+          "Bread",
+          "Muffin"
+        ]
+      },
+      {
+        "id": 31,
+        "type": "missing",
+        "question": "A receipt lists TWO cookie items and one pretzel. Total: 227¢. Find the combined price of BOTH cookie items.",
+        "answer": 128,
+        "explanation": "227 − 99 = 128¢. Check the missing line: 64 + 64 = 128¢.",
+        "terms": [
+          227,
+          99,
+          64
+        ],
+        "items": [
+          "Cookie",
+          "Pretzel"
+        ]
+      },
+      {
+        "id": 32,
+        "type": "compare",
+        "question": "Basket A: one bread and one muffin. Basket B: one cookie and one pretzel. How much cheaper is Basket A?",
+        "answer": 90,
+        "explanation": "Basket A: 73¢. Basket B: 163¢. Difference: 163 − 73 = 90¢.",
+        "terms": [
+          29,
+          44,
+          64,
+          99
+        ],
+        "items": [
+          "Bread",
+          "Muffin",
+          "Cookie",
+          "Pretzel"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 9,
+    "department": "Dairy & Snacks",
+    "prices": {
+      "Milk carton": 41,
+      "Yogurt": 61,
+      "Cheese": 91,
+      "Cracker pack": 136
+    },
+    "puzzles": [
+      {
+        "id": 33,
+        "type": "sum",
+        "question": "Buy one milk carton, one yogurt, and one cheese. Find the total.",
+        "answer": 193,
+        "explanation": "41 + 61 + 91 = 193¢. Add all three prices.",
+        "terms": [
+          41,
+          61,
+          91
+        ],
+        "items": [
+          "Milk carton",
+          "Yogurt",
+          "Cheese"
+        ]
+      },
+      {
+        "id": 34,
+        "type": "change",
+        "question": "Your three-item group costs 193¢. Pay 500¢. What change should you receive?",
+        "answer": 307,
+        "explanation": "500 − 193 = 307¢. Check: 193 + 307 = 500.",
+        "terms": [
+          500,
+          193
+        ],
+        "items": [
+          "Milk carton",
+          "Yogurt",
+          "Cheese"
+        ]
+      },
+      {
+        "id": 35,
+        "type": "pair",
+        "question": "Find TWO DIFFERENT items whose prices add to 177¢. Write both names.",
+        "answer": "Milk carton + Cracker pack",
+        "explanation": "41 + 136 = 177¢. Checking all six possible pairs gives only this match.",
+        "terms": [
+          177
+        ],
+        "items": [
+          "Milk carton",
+          "Cracker pack"
+        ]
+      },
+      {
+        "id": 36,
+        "type": "stock",
+        "question": "Three yogurt items are on a shelf. What is their total value? You may use repeated addition.",
+        "answer": 183,
+        "explanation": "61 + 61 + 61 = 183¢. There are three items, not one.",
+        "terms": [
+          61,
+          61,
+          61
+        ],
+        "items": [
+          "Yogurt"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 10,
+    "department": "Dairy & Snacks",
+    "prices": {
+      "Milk carton": 43,
+      "Yogurt": 63,
+      "Cheese": 93,
+      "Cracker pack": 138
+    },
+    "puzzles": [
+      {
+        "id": 37,
+        "type": "sum",
+        "question": "Buy one milk carton, one yogurt, and one cheese. Find the total.",
+        "answer": 199,
+        "explanation": "43 + 63 + 93 = 199¢. Add all three prices.",
+        "terms": [
+          43,
+          63,
+          93
+        ],
+        "items": [
+          "Milk carton",
+          "Yogurt",
+          "Cheese"
+        ]
+      },
+      {
+        "id": 38,
+        "type": "change",
+        "question": "Your three-item group costs 199¢. Pay 500¢. What change should you receive?",
+        "answer": 301,
+        "explanation": "500 − 199 = 301¢. Check: 199 + 301 = 500.",
+        "terms": [
+          500,
+          199
+        ],
+        "items": [
+          "Milk carton",
+          "Yogurt",
+          "Cheese"
+        ]
+      },
+      {
+        "id": 39,
+        "type": "pair",
+        "question": "Find TWO DIFFERENT items whose prices add to 181¢. Write both names.",
+        "answer": "Milk carton + Cracker pack",
+        "explanation": "43 + 138 = 181¢. Checking all six possible pairs gives only this match.",
+        "terms": [
+          181
+        ],
+        "items": [
+          "Milk carton",
+          "Cracker pack"
+        ]
+      },
+      {
+        "id": 40,
+        "type": "stock",
+        "question": "Three yogurt items are on a shelf. What is their total value? You may use repeated addition.",
+        "answer": 189,
+        "explanation": "63 + 63 + 63 = 189¢. There are three items, not one.",
+        "terms": [
+          63,
+          63,
+          63
+        ],
+        "items": [
+          "Yogurt"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 11,
+    "department": "Dairy & Snacks",
+    "prices": {
+      "Milk carton": 45,
+      "Yogurt": 65,
+      "Cheese": 95,
+      "Cracker pack": 140
+    },
+    "puzzles": [
+      {
+        "id": 41,
+        "type": "sum",
+        "question": "Buy one milk carton, one yogurt, and one cheese. Find the total.",
+        "answer": 205,
+        "explanation": "45 + 65 + 95 = 205¢. Add all three prices.",
+        "terms": [
+          45,
+          65,
+          95
+        ],
+        "items": [
+          "Milk carton",
+          "Yogurt",
+          "Cheese"
+        ]
+      },
+      {
+        "id": 42,
+        "type": "change",
+        "question": "Your three-item group costs 205¢. Pay 500¢. What change should you receive?",
+        "answer": 295,
+        "explanation": "500 − 205 = 295¢. Check: 205 + 295 = 500.",
+        "terms": [
+          500,
+          205
+        ],
+        "items": [
+          "Milk carton",
+          "Yogurt",
+          "Cheese"
+        ]
+      },
+      {
+        "id": 43,
+        "type": "pair",
+        "question": "Find TWO DIFFERENT items whose prices add to 185¢. Write both names.",
+        "answer": "Milk carton + Cracker pack",
+        "explanation": "45 + 140 = 185¢. Checking all six possible pairs gives only this match.",
+        "terms": [
+          185
+        ],
+        "items": [
+          "Milk carton",
+          "Cracker pack"
+        ]
+      },
+      {
+        "id": 44,
+        "type": "stock",
+        "question": "Three yogurt items are on a shelf. What is their total value? You may use repeated addition.",
+        "answer": 195,
+        "explanation": "65 + 65 + 65 = 195¢. There are three items, not one.",
+        "terms": [
+          65,
+          65,
+          65
+        ],
+        "items": [
+          "Yogurt"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 12,
+    "department": "Dairy & Snacks",
+    "prices": {
+      "Milk carton": 47,
+      "Yogurt": 67,
+      "Cheese": 97,
+      "Cracker pack": 142
+    },
+    "puzzles": [
+      {
+        "id": 45,
+        "type": "sum",
+        "question": "Buy one milk carton, one yogurt, and one cheese. Find the total.",
+        "answer": 211,
+        "explanation": "47 + 67 + 97 = 211¢. Add all three prices.",
+        "terms": [
+          47,
+          67,
+          97
+        ],
+        "items": [
+          "Milk carton",
+          "Yogurt",
+          "Cheese"
+        ]
+      },
+      {
+        "id": 46,
+        "type": "change",
+        "question": "Your three-item group costs 211¢. Pay 500¢. What change should you receive?",
+        "answer": 289,
+        "explanation": "500 − 211 = 289¢. Check: 211 + 289 = 500.",
+        "terms": [
+          500,
+          211
+        ],
+        "items": [
+          "Milk carton",
+          "Yogurt",
+          "Cheese"
+        ]
+      },
+      {
+        "id": 47,
+        "type": "pair",
+        "question": "Find TWO DIFFERENT items whose prices add to 189¢. Write both names.",
+        "answer": "Milk carton + Cracker pack",
+        "explanation": "47 + 142 = 189¢. Checking all six possible pairs gives only this match.",
+        "terms": [
+          189
+        ],
+        "items": [
+          "Milk carton",
+          "Cracker pack"
+        ]
+      },
+      {
+        "id": 48,
+        "type": "stock",
+        "question": "Three yogurt items are on a shelf. What is their total value? You may use repeated addition.",
+        "answer": 201,
+        "explanation": "67 + 67 + 67 = 201¢. There are three items, not one.",
+        "terms": [
+          67,
+          67,
+          67
+        ],
+        "items": [
+          "Yogurt"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 13,
+    "department": "Toy & Sticker Stall",
+    "prices": {
+      "Toy car": 49,
+      "Sticker sheet": 69,
+      "Ball": 99,
+      "Robot": 144
+    },
+    "puzzles": [
+      {
+        "id": 49,
+        "type": "missing",
+        "question": "A receipt has TWO toy car items and one ball. Total: 197¢. Find the line total for BOTH toy car items.",
+        "answer": 98,
+        "explanation": "197 − 99 = 98¢. Check: 49 + 49 = 98¢.",
+        "terms": [
+          197,
+          99,
+          49
+        ],
+        "items": [
+          "Toy car",
+          "Ball"
+        ]
+      },
+      {
+        "id": 50,
+        "type": "compare",
+        "question": "Basket A has one toy car and one ball. Basket B has one sticker sheet and one robot. How much cheaper is A?",
+        "answer": 65,
+        "explanation": "A costs 148¢; B costs 213¢. 213 − 148 = 65¢.",
+        "terms": [
+          49,
+          99,
+          69,
+          144
+        ],
+        "items": [
+          "Toy car",
+          "Ball",
+          "Sticker sheet",
+          "Robot"
+        ]
+      },
+      {
+        "id": 51,
+        "type": "budget",
+        "question": "You have 171¢. Buy only toy car items at 49¢ each. What is the GREATEST number you can afford?",
+        "answer": 3,
+        "explanation": "Three cost 147¢, within 171¢. Four cost 196¢, too much. So the greatest number is 3.",
+        "terms": [
+          171,
+          49
+        ],
+        "items": [
+          "Toy car"
+        ]
+      },
+      {
+        "id": 52,
+        "type": "change",
+        "question": "Buy one sticker sheet and one robot for 213¢. Pay 500¢. Find the change.",
+        "answer": 287,
+        "explanation": "500 − 213 = 287¢. Check: 213 + 287 = 500.",
+        "terms": [
+          500,
+          213
+        ],
+        "items": [
+          "Sticker sheet",
+          "Robot"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 14,
+    "department": "Toy & Sticker Stall",
+    "prices": {
+      "Toy car": 51,
+      "Sticker sheet": 71,
+      "Ball": 101,
+      "Robot": 146
+    },
+    "puzzles": [
+      {
+        "id": 53,
+        "type": "missing",
+        "question": "A receipt has TWO toy car items and one ball. Total: 203¢. Find the line total for BOTH toy car items.",
+        "answer": 102,
+        "explanation": "203 − 101 = 102¢. Check: 51 + 51 = 102¢.",
+        "terms": [
+          203,
+          101,
+          51
+        ],
+        "items": [
+          "Toy car",
+          "Ball"
+        ]
+      },
+      {
+        "id": 54,
+        "type": "compare",
+        "question": "Basket A has one toy car and one ball. Basket B has one sticker sheet and one robot. How much cheaper is A?",
+        "answer": 65,
+        "explanation": "A costs 152¢; B costs 217¢. 217 − 152 = 65¢.",
+        "terms": [
+          51,
+          101,
+          71,
+          146
+        ],
+        "items": [
+          "Toy car",
+          "Ball",
+          "Sticker sheet",
+          "Robot"
+        ]
+      },
+      {
+        "id": 55,
+        "type": "budget",
+        "question": "You have 178¢. Buy only toy car items at 51¢ each. What is the GREATEST number you can afford?",
+        "answer": 3,
+        "explanation": "Three cost 153¢, within 178¢. Four cost 204¢, too much. So the greatest number is 3.",
+        "terms": [
+          178,
+          51
+        ],
+        "items": [
+          "Toy car"
+        ]
+      },
+      {
+        "id": 56,
+        "type": "change",
+        "question": "Buy one sticker sheet and one robot for 217¢. Pay 500¢. Find the change.",
+        "answer": 283,
+        "explanation": "500 − 217 = 283¢. Check: 217 + 283 = 500.",
+        "terms": [
+          500,
+          217
+        ],
+        "items": [
+          "Sticker sheet",
+          "Robot"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 15,
+    "department": "Toy & Sticker Stall",
+    "prices": {
+      "Toy car": 53,
+      "Sticker sheet": 73,
+      "Ball": 103,
+      "Robot": 148
+    },
+    "puzzles": [
+      {
+        "id": 57,
+        "type": "missing",
+        "question": "A receipt has TWO toy car items and one ball. Total: 209¢. Find the line total for BOTH toy car items.",
+        "answer": 106,
+        "explanation": "209 − 103 = 106¢. Check: 53 + 53 = 106¢.",
+        "terms": [
+          209,
+          103,
+          53
+        ],
+        "items": [
+          "Toy car",
+          "Ball"
+        ]
+      },
+      {
+        "id": 58,
+        "type": "compare",
+        "question": "Basket A has one toy car and one ball. Basket B has one sticker sheet and one robot. How much cheaper is A?",
+        "answer": 65,
+        "explanation": "A costs 156¢; B costs 221¢. 221 − 156 = 65¢.",
+        "terms": [
+          53,
+          103,
+          73,
+          148
+        ],
+        "items": [
+          "Toy car",
+          "Ball",
+          "Sticker sheet",
+          "Robot"
+        ]
+      },
+      {
+        "id": 59,
+        "type": "budget",
+        "question": "You have 185¢. Buy only toy car items at 53¢ each. What is the GREATEST number you can afford?",
+        "answer": 3,
+        "explanation": "Three cost 159¢, within 185¢. Four cost 212¢, too much. So the greatest number is 3.",
+        "terms": [
+          185,
+          53
+        ],
+        "items": [
+          "Toy car"
+        ]
+      },
+      {
+        "id": 60,
+        "type": "change",
+        "question": "Buy one sticker sheet and one robot for 221¢. Pay 500¢. Find the change.",
+        "answer": 279,
+        "explanation": "500 − 221 = 279¢. Check: 221 + 279 = 500.",
+        "terms": [
+          500,
+          221
+        ],
+        "items": [
+          "Sticker sheet",
+          "Robot"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 16,
+    "department": "Toy & Sticker Stall",
+    "prices": {
+      "Toy car": 55,
+      "Sticker sheet": 75,
+      "Ball": 105,
+      "Robot": 150
+    },
+    "puzzles": [
+      {
+        "id": 61,
+        "type": "missing",
+        "question": "A receipt has TWO toy car items and one ball. Total: 215¢. Find the line total for BOTH toy car items.",
+        "answer": 110,
+        "explanation": "215 − 105 = 110¢. Check: 55 + 55 = 110¢.",
+        "terms": [
+          215,
+          105,
+          55
+        ],
+        "items": [
+          "Toy car",
+          "Ball"
+        ]
+      },
+      {
+        "id": 62,
+        "type": "compare",
+        "question": "Basket A has one toy car and one ball. Basket B has one sticker sheet and one robot. How much cheaper is A?",
+        "answer": 65,
+        "explanation": "A costs 160¢; B costs 225¢. 225 − 160 = 65¢.",
+        "terms": [
+          55,
+          105,
+          75,
+          150
+        ],
+        "items": [
+          "Toy car",
+          "Ball",
+          "Sticker sheet",
+          "Robot"
+        ]
+      },
+      {
+        "id": 63,
+        "type": "budget",
+        "question": "You have 192¢. Buy only toy car items at 55¢ each. What is the GREATEST number you can afford?",
+        "answer": 3,
+        "explanation": "Three cost 165¢, within 192¢. Four cost 220¢, too much. So the greatest number is 3.",
+        "terms": [
+          192,
+          55
+        ],
+        "items": [
+          "Toy car"
+        ]
+      },
+      {
+        "id": 64,
+        "type": "change",
+        "question": "Buy one sticker sheet and one robot for 225¢. Pay 500¢. Find the change.",
+        "answer": 275,
+        "explanation": "500 − 225 = 275¢. Check: 225 + 275 = 500.",
+        "terms": [
+          500,
+          225
+        ],
+        "items": [
+          "Sticker sheet",
+          "Robot"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 17,
+    "department": "School Supply Counter",
+    "prices": {
+      "Pencil": 77,
+      "Notebook": 102,
+      "Eraser": 142,
+      "Crayons": 197
+    },
+    "puzzles": [
+      {
+        "id": 65,
+        "type": "stock",
+        "question": "Buy TWO notebook items and one eraser. How much do they cost altogether?",
+        "answer": 346,
+        "explanation": "102 + 102 + 142 = 346¢. Include both repeated items.",
+        "terms": [
+          102,
+          102,
+          142
+        ],
+        "items": [
+          "Notebook",
+          "Eraser"
+        ]
+      },
+      {
+        "id": 66,
+        "type": "quantity",
+        "question": "A receipt lists ONLY pencil items at 77¢ each. Total: 308¢. How many items were bought?",
+        "answer": 4,
+        "explanation": "77 + 77 + 77 + 77 = 308¢. That is four equal prices.",
+        "terms": [
+          308,
+          77
+        ],
+        "items": [
+          "Pencil"
+        ]
+      },
+      {
+        "id": 67,
+        "type": "pair",
+        "question": "Choose exactly TWO DIFFERENT items for a total of 299¢. What are they?",
+        "answer": "Notebook + Crayons",
+        "explanation": "102 + 197 = 299¢. It is the only different-item pair that fits.",
+        "terms": [
+          299
+        ],
+        "items": [
+          "Notebook",
+          "Crayons"
+        ]
+      },
+      {
+        "id": 68,
+        "type": "change",
+        "question": "Buy the 346¢ group from the first puzzle on this spread. Pay 1000¢ ($10). Find your change.",
+        "answer": 654,
+        "explanation": "1000 − 346 = 654¢. Check: 346 + 654 = 1000.",
+        "terms": [
+          1000,
+          346
+        ],
+        "items": [
+          "Notebook",
+          "Eraser"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 18,
+    "department": "School Supply Counter",
+    "prices": {
+      "Pencil": 79,
+      "Notebook": 104,
+      "Eraser": 144,
+      "Crayons": 199
+    },
+    "puzzles": [
+      {
+        "id": 69,
+        "type": "stock",
+        "question": "Buy TWO notebook items and one eraser. How much do they cost altogether?",
+        "answer": 352,
+        "explanation": "104 + 104 + 144 = 352¢. Include both repeated items.",
+        "terms": [
+          104,
+          104,
+          144
+        ],
+        "items": [
+          "Notebook",
+          "Eraser"
+        ]
+      },
+      {
+        "id": 70,
+        "type": "quantity",
+        "question": "A receipt lists ONLY pencil items at 79¢ each. Total: 316¢. How many items were bought?",
+        "answer": 4,
+        "explanation": "79 + 79 + 79 + 79 = 316¢. That is four equal prices.",
+        "terms": [
+          316,
+          79
+        ],
+        "items": [
+          "Pencil"
+        ]
+      },
+      {
+        "id": 71,
+        "type": "pair",
+        "question": "Choose exactly TWO DIFFERENT items for a total of 303¢. What are they?",
+        "answer": "Notebook + Crayons",
+        "explanation": "104 + 199 = 303¢. It is the only different-item pair that fits.",
+        "terms": [
+          303
+        ],
+        "items": [
+          "Notebook",
+          "Crayons"
+        ]
+      },
+      {
+        "id": 72,
+        "type": "change",
+        "question": "Buy the 352¢ group from the first puzzle on this spread. Pay 1000¢ ($10). Find your change.",
+        "answer": 648,
+        "explanation": "1000 − 352 = 648¢. Check: 352 + 648 = 1000.",
+        "terms": [
+          1000,
+          352
+        ],
+        "items": [
+          "Notebook",
+          "Eraser"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 19,
+    "department": "School Supply Counter",
+    "prices": {
+      "Pencil": 81,
+      "Notebook": 106,
+      "Eraser": 146,
+      "Crayons": 201
+    },
+    "puzzles": [
+      {
+        "id": 73,
+        "type": "stock",
+        "question": "Buy TWO notebook items and one eraser. How much do they cost altogether?",
+        "answer": 358,
+        "explanation": "106 + 106 + 146 = 358¢. Include both repeated items.",
+        "terms": [
+          106,
+          106,
+          146
+        ],
+        "items": [
+          "Notebook",
+          "Eraser"
+        ]
+      },
+      {
+        "id": 74,
+        "type": "quantity",
+        "question": "A receipt lists ONLY pencil items at 81¢ each. Total: 324¢. How many items were bought?",
+        "answer": 4,
+        "explanation": "81 + 81 + 81 + 81 = 324¢. That is four equal prices.",
+        "terms": [
+          324,
+          81
+        ],
+        "items": [
+          "Pencil"
+        ]
+      },
+      {
+        "id": 75,
+        "type": "pair",
+        "question": "Choose exactly TWO DIFFERENT items for a total of 307¢. What are they?",
+        "answer": "Notebook + Crayons",
+        "explanation": "106 + 201 = 307¢. It is the only different-item pair that fits.",
+        "terms": [
+          307
+        ],
+        "items": [
+          "Notebook",
+          "Crayons"
+        ]
+      },
+      {
+        "id": 76,
+        "type": "change",
+        "question": "Buy the 358¢ group from the first puzzle on this spread. Pay 1000¢ ($10). Find your change.",
+        "answer": 642,
+        "explanation": "1000 − 358 = 642¢. Check: 358 + 642 = 1000.",
+        "terms": [
+          1000,
+          358
+        ],
+        "items": [
+          "Notebook",
+          "Eraser"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 20,
+    "department": "School Supply Counter",
+    "prices": {
+      "Pencil": 83,
+      "Notebook": 108,
+      "Eraser": 148,
+      "Crayons": 203
+    },
+    "puzzles": [
+      {
+        "id": 77,
+        "type": "stock",
+        "question": "Buy TWO notebook items and one eraser. How much do they cost altogether?",
+        "answer": 364,
+        "explanation": "108 + 108 + 148 = 364¢. Include both repeated items.",
+        "terms": [
+          108,
+          108,
+          148
+        ],
+        "items": [
+          "Notebook",
+          "Eraser"
+        ]
+      },
+      {
+        "id": 78,
+        "type": "quantity",
+        "question": "A receipt lists ONLY pencil items at 83¢ each. Total: 332¢. How many items were bought?",
+        "answer": 4,
+        "explanation": "83 + 83 + 83 + 83 = 332¢. That is four equal prices.",
+        "terms": [
+          332,
+          83
+        ],
+        "items": [
+          "Pencil"
+        ]
+      },
+      {
+        "id": 79,
+        "type": "pair",
+        "question": "Choose exactly TWO DIFFERENT items for a total of 311¢. What are they?",
+        "answer": "Notebook + Crayons",
+        "explanation": "108 + 203 = 311¢. It is the only different-item pair that fits.",
+        "terms": [
+          311
+        ],
+        "items": [
+          "Notebook",
+          "Crayons"
+        ]
+      },
+      {
+        "id": 80,
+        "type": "change",
+        "question": "Buy the 364¢ group from the first puzzle on this spread. Pay 1000¢ ($10). Find your change.",
+        "answer": 636,
+        "explanation": "1000 − 364 = 636¢. Check: 364 + 636 = 1000.",
+        "terms": [
+          1000,
+          364
+        ],
+        "items": [
+          "Notebook",
+          "Eraser"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 21,
+    "department": "Juice Bar",
+    "prices": {
+      "Apple juice": 85,
+      "Berry juice": 110,
+      "Orange juice": 150,
+      "Lemonade": 205
+    },
+    "puzzles": [
+      {
+        "id": 81,
+        "type": "receipt3",
+        "question": "Finish this receipt: one apple juice, TWO berry juice items, and one orange juice. What is the total?",
+        "answer": 455,
+        "explanation": "85 + 220 + 150 = 455¢. The middle line includes TWO items: 110 + 110 = 220.",
+        "terms": [
+          85,
+          220,
+          150
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice"
+        ]
+      },
+      {
+        "id": 82,
+        "type": "missing3",
+        "question": "A receipt lists one apple juice, TWO orange juice items, and one lemonade. Total: 590¢. Find the line total for BOTH orange juice items.",
+        "answer": 300,
+        "explanation": "Known lines: 85 + 205 = 290¢. 590 − 290 = 300¢. Check: 150 + 150 = 300¢.",
+        "terms": [
+          590,
+          85,
+          205,
+          150
+        ],
+        "items": [
+          "Apple juice",
+          "Orange juice",
+          "Lemonade"
+        ]
+      },
+      {
+        "id": 83,
+        "type": "compare",
+        "question": "Basket A: one each of apple juice, berry juice, and orange juice. Basket B: TWO lemonade items. How much cheaper is A?",
+        "answer": 65,
+        "explanation": "A: 85 + 110 + 150 = 345¢. B: 205 + 205 = 410¢. Difference: 65¢.",
+        "terms": [
+          85,
+          110,
+          150,
+          205,
+          205
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice",
+          "Lemonade"
+        ]
+      },
+      {
+        "id": 84,
+        "type": "change",
+        "question": "Buy the receipt group for 455¢ from this spread’s first puzzle. Pay 1000¢. How much change comes back?",
+        "answer": 545,
+        "explanation": "1000 − 455 = 545¢. Count up or subtract. Check: 455 + 545 = 1000.",
+        "terms": [
+          1000,
+          455
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 22,
+    "department": "Juice Bar",
+    "prices": {
+      "Apple juice": 87,
+      "Berry juice": 112,
+      "Orange juice": 152,
+      "Lemonade": 207
+    },
+    "puzzles": [
+      {
+        "id": 85,
+        "type": "receipt3",
+        "question": "Finish this receipt: one apple juice, TWO berry juice items, and one orange juice. What is the total?",
+        "answer": 463,
+        "explanation": "87 + 224 + 152 = 463¢. The middle line includes TWO items: 112 + 112 = 224.",
+        "terms": [
+          87,
+          224,
+          152
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice"
+        ]
+      },
+      {
+        "id": 86,
+        "type": "missing3",
+        "question": "A receipt lists one apple juice, TWO orange juice items, and one lemonade. Total: 598¢. Find the line total for BOTH orange juice items.",
+        "answer": 304,
+        "explanation": "Known lines: 87 + 207 = 294¢. 598 − 294 = 304¢. Check: 152 + 152 = 304¢.",
+        "terms": [
+          598,
+          87,
+          207,
+          152
+        ],
+        "items": [
+          "Apple juice",
+          "Orange juice",
+          "Lemonade"
+        ]
+      },
+      {
+        "id": 87,
+        "type": "compare",
+        "question": "Basket A: one each of apple juice, berry juice, and orange juice. Basket B: TWO lemonade items. How much cheaper is A?",
+        "answer": 63,
+        "explanation": "A: 87 + 112 + 152 = 351¢. B: 207 + 207 = 414¢. Difference: 63¢.",
+        "terms": [
+          87,
+          112,
+          152,
+          207,
+          207
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice",
+          "Lemonade"
+        ]
+      },
+      {
+        "id": 88,
+        "type": "change",
+        "question": "Buy the receipt group for 463¢ from this spread’s first puzzle. Pay 1000¢. How much change comes back?",
+        "answer": 537,
+        "explanation": "1000 − 463 = 537¢. Count up or subtract. Check: 463 + 537 = 1000.",
+        "terms": [
+          1000,
+          463
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 23,
+    "department": "Juice Bar",
+    "prices": {
+      "Apple juice": 89,
+      "Berry juice": 114,
+      "Orange juice": 154,
+      "Lemonade": 209
+    },
+    "puzzles": [
+      {
+        "id": 89,
+        "type": "receipt3",
+        "question": "Finish this receipt: one apple juice, TWO berry juice items, and one orange juice. What is the total?",
+        "answer": 471,
+        "explanation": "89 + 228 + 154 = 471¢. The middle line includes TWO items: 114 + 114 = 228.",
+        "terms": [
+          89,
+          228,
+          154
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice"
+        ]
+      },
+      {
+        "id": 90,
+        "type": "missing3",
+        "question": "A receipt lists one apple juice, TWO orange juice items, and one lemonade. Total: 606¢. Find the line total for BOTH orange juice items.",
+        "answer": 308,
+        "explanation": "Known lines: 89 + 209 = 298¢. 606 − 298 = 308¢. Check: 154 + 154 = 308¢.",
+        "terms": [
+          606,
+          89,
+          209,
+          154
+        ],
+        "items": [
+          "Apple juice",
+          "Orange juice",
+          "Lemonade"
+        ]
+      },
+      {
+        "id": 91,
+        "type": "compare",
+        "question": "Basket A: one each of apple juice, berry juice, and orange juice. Basket B: TWO lemonade items. How much cheaper is A?",
+        "answer": 61,
+        "explanation": "A: 89 + 114 + 154 = 357¢. B: 209 + 209 = 418¢. Difference: 61¢.",
+        "terms": [
+          89,
+          114,
+          154,
+          209,
+          209
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice",
+          "Lemonade"
+        ]
+      },
+      {
+        "id": 92,
+        "type": "change",
+        "question": "Buy the receipt group for 471¢ from this spread’s first puzzle. Pay 1000¢. How much change comes back?",
+        "answer": 529,
+        "explanation": "1000 − 471 = 529¢. Count up or subtract. Check: 471 + 529 = 1000.",
+        "terms": [
+          1000,
+          471
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 24,
+    "department": "Juice Bar",
+    "prices": {
+      "Apple juice": 91,
+      "Berry juice": 116,
+      "Orange juice": 156,
+      "Lemonade": 211
+    },
+    "puzzles": [
+      {
+        "id": 93,
+        "type": "receipt3",
+        "question": "Finish this receipt: one apple juice, TWO berry juice items, and one orange juice. What is the total?",
+        "answer": 479,
+        "explanation": "91 + 232 + 156 = 479¢. The middle line includes TWO items: 116 + 116 = 232.",
+        "terms": [
+          91,
+          232,
+          156
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice"
+        ]
+      },
+      {
+        "id": 94,
+        "type": "missing3",
+        "question": "A receipt lists one apple juice, TWO orange juice items, and one lemonade. Total: 614¢. Find the line total for BOTH orange juice items.",
+        "answer": 312,
+        "explanation": "Known lines: 91 + 211 = 302¢. 614 − 302 = 312¢. Check: 156 + 156 = 312¢.",
+        "terms": [
+          614,
+          91,
+          211,
+          156
+        ],
+        "items": [
+          "Apple juice",
+          "Orange juice",
+          "Lemonade"
+        ]
+      },
+      {
+        "id": 95,
+        "type": "compare",
+        "question": "Basket A: one each of apple juice, berry juice, and orange juice. Basket B: TWO lemonade items. How much cheaper is A?",
+        "answer": 59,
+        "explanation": "A: 91 + 116 + 156 = 363¢. B: 211 + 211 = 422¢. Difference: 59¢.",
+        "terms": [
+          91,
+          116,
+          156,
+          211,
+          211
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice",
+          "Lemonade"
+        ]
+      },
+      {
+        "id": 96,
+        "type": "change",
+        "question": "Buy the receipt group for 479¢ from this spread’s first puzzle. Pay 1000¢. How much change comes back?",
+        "answer": 521,
+        "explanation": "1000 − 479 = 521¢. Count up or subtract. Check: 479 + 521 = 1000.",
+        "terms": [
+          1000,
+          479
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice"
+        ]
+      }
+    ]
+  },
+  {
+    "mission": 25,
+    "department": "Juice Bar",
+    "prices": {
+      "Apple juice": 93,
+      "Berry juice": 118,
+      "Orange juice": 158,
+      "Lemonade": 213
+    },
+    "puzzles": [
+      {
+        "id": 97,
+        "type": "receipt3",
+        "question": "Finish this receipt: one apple juice, TWO berry juice items, and one orange juice. What is the total?",
+        "answer": 487,
+        "explanation": "93 + 236 + 158 = 487¢. The middle line includes TWO items: 118 + 118 = 236.",
+        "terms": [
+          93,
+          236,
+          158
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice"
+        ]
+      },
+      {
+        "id": 98,
+        "type": "missing3",
+        "question": "A receipt lists one apple juice, TWO orange juice items, and one lemonade. Total: 622¢. Find the line total for BOTH orange juice items.",
+        "answer": 316,
+        "explanation": "Known lines: 93 + 213 = 306¢. 622 − 306 = 316¢. Check: 158 + 158 = 316¢.",
+        "terms": [
+          622,
+          93,
+          213,
+          158
+        ],
+        "items": [
+          "Apple juice",
+          "Orange juice",
+          "Lemonade"
+        ]
+      },
+      {
+        "id": 99,
+        "type": "compare",
+        "question": "Basket A: one each of apple juice, berry juice, and orange juice. Basket B: TWO lemonade items. How much cheaper is A?",
+        "answer": 57,
+        "explanation": "A: 93 + 118 + 158 = 369¢. B: 213 + 213 = 426¢. Difference: 57¢.",
+        "terms": [
+          93,
+          118,
+          158,
+          213,
+          213
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice",
+          "Lemonade"
+        ]
+      },
+      {
+        "id": 100,
+        "type": "change",
+        "question": "Buy the receipt group for 487¢ from this spread’s first puzzle. Pay 1000¢. How much change comes back?",
+        "answer": 513,
+        "explanation": "1000 − 487 = 513¢. Count up or subtract. Check: 487 + 513 = 1000.",
+        "terms": [
+          1000,
+          487
+        ],
+        "items": [
+          "Apple juice",
+          "Berry juice",
+          "Orange juice"
+        ]
+      }
+    ]
+  }
+]
