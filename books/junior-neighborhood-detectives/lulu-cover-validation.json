@@ -1,0 +1,54 @@
+{
+  "document_inches": [
+    17.58,
+    11.25
+  ],
+  "document_points": [
+    1265.7599999999998,
+    810.0
+  ],
+  "trim_inches": [
+    8.5,
+    11
+  ],
+  "page_count_for_template": 120,
+  "spine_inches": 0.33,
+  "bleed_inches": 0.125,
+  "minimum_important_content_inset_inches": 0.5,
+  "back_safe_rect_points": [
+    45.0,
+    45.0,
+    585.0,
+    765.0
+  ],
+  "front_safe_rect_points": [
+    680.76,
+    45.0,
+    1220.76,
+    765.0
+  ],
+  "barcode_inches": [
+    3.622,
+    1.26
+  ],
+  "barcode_pdf_top_left_rect_points": [
+    324.216,
+    674.28,
+    585.0,
+    765.0
+  ],
+  "barcode_bottom_and_right_trim_clearance_inches": 0.5,
+  "barcode_bottom_document_clearance_inches": 0.625,
+  "barcode_zone_blank_white_verified": true,
+  "text_safe_rect_check": "PASS",
+  "vector_source_preserved": true,
+  "fonts_embedded_from_source": true,
+  "raster_companion_dpi": 300,
+  "raster_pixels": [
+    5274,
+    3375
+  ],
+  "interior_unchanged": true,
+  "interior_mismatch": "Existing interior is 8 x 10 inches; supplied Lulu cover is for 8.5 x 11 inches. A matching interior is required.",
+  "lulu_upload_acceptance": "Not tested; no actual template file or account upload supplied."
+}
